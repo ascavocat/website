@@ -63,6 +63,7 @@
   text-align: center;
   font-size: 14px;
   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  
 }
 
 .footer {
@@ -92,4 +93,37 @@
    [class*="col-"] {
     width: 100%;
   }
+}
+
+/*typing animation*/
+
+#container {
+	text-align: center;
+}
+
+#text {
+	display: inline-block;
+	vertical-align: middle;
+	color: #ffffff;
+	letter-spacing: 2px;
+  height: 0px;
+  width:fit-content;
+}
+
+#cursor {
+	display: inline-block;
+	vertical-align: middle;
+	width: 3px;
+	height: 20px;
+	background-color:#ffffff;
+	animation: blink .90s step-end infinite;
+}
+
+@keyframes blink {
+	from, to { 
+		background-color: transparent 
+	}
+	50% { 
+		background-color: #ffffff; 
+	}
 }

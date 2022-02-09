@@ -12,10 +12,12 @@
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
       <link rel="stylesheet" href="static/style.css">
       <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+      
+      
       <title>ASC Avocat</title>
   </head>
 
-  <body id="myPage">
+  <body>
     <!-- Navbar -->
     <div class="w3-top">
       <div class="w3-bar w3-theme-d2 w3-left-align">
@@ -44,7 +46,7 @@
           <h2 style="font-size:3vw;">Me Aboubacar Sidiki Coulibaly</h2>
         </div>
     </div>
-
+    
     <div class="row">
       <div class="col-3">
         <img id="logo_img" src="images/logo_ASC_Avocat.png" alt="Logo de ASC Avocat" >
@@ -52,21 +54,30 @@
       </div>
     
       <div class="col-6">
-        <h1>The City</h1>
-        <p>Chania is the capital of the Chania region on the island of Crete. The city can be divided in two parts, the old town and the modern city.</p>
+        <h2>À propos de Me Coulibaly</h2>
+        <p>C'est un avocat hautement déterminé, confiant et dévoué, avec un grand sens des valeurs, une passion pour la vérité et la soif de justice. Il offre un service personnalisé en fonction des besoins de chaque client.</p>
+        <p>En outre, il est dedié à représenter vigoureusement chaque client dans chaque dossier, et ce, avec des honoraires justes et raisonnables.</p>
       </div>
-    
+      
       <div class="col-3 right">
         <div class="aside">
-          <h2>What?</h2>
-          <p>Chania is a city on the island of Crete.</p>
-          <h2>Where?</h2>
-          <p>Crete is a Greek island in the Mediterranean Sea.</p>
-          <h2>How?</h2>
-          <p>You can reach Chania airport from all over Europe.</p>
+          <h3>Pourqoui choisir ASC Avocat ?</h3>
+          <br>
+          <div></div>
+
+          <div id="container">
+            <div id="text"></div><div id="cursor"></div>
+          </div>
+          <br>
+          <br>
+
+
         </div>
       </div>
+
+        
     </div>
+    
     
     <div class="footer">
       <footer >
@@ -89,30 +100,7 @@
 
   </body>
 
-  
-
-  <script>
-    // Script for side navigation
-    function w3_open() {
-      var x = document.getElementById("mySidebar");
-      x.style.width = "300px";
-      x.style.paddingTop = "10%";
-      x.style.display = "block";
-    }
-    
-    // Close side navigation
-    function w3_close() {
-      document.getElementById("mySidebar").style.display = "none";
-    }
-    
-    // Used to toggle the menu on smaller screens when clicking on the menu button
-    function openNav() {
-      var x = document.getElementById("navDemo");
-      if (x.className.indexOf("w3-show") == -1) {
-        x.className += " w3-show";
-      } else { 
-        x.className = x.className.replace(" w3-show", "");
-      }
-    }
-  </script>
+  <script src="static/scripts.js"></script>
+ 
+ 
 </html>
