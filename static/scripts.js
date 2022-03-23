@@ -8,7 +8,7 @@ function openNav() {
   }
 
 
-   
+//Start of the block animation *********
 // List of sentences
 var _CONTENT = [ 
     "Représentation avec zèle!", 
@@ -81,3 +81,22 @@ function Delete() {
 
 // Start the typing effect on load
 _INTERVAL_VAL = setInterval(Type, 100);
+
+// End animation of the block ***************
+
+// Accordion 
+
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight) {
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    } 
+  });
+}
