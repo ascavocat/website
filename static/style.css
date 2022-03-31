@@ -57,7 +57,21 @@ p {
   margin-top: 20px;
 }
 
+#logo_contact {
+  max-width: 100px;
+  display: block;
+  margin-left: 2px;
+  margin-right: auto;
+  margin-top: 20px;
+}
 
+#text_logo {
+  max-width: 155px;
+  display: block;
+  margin-left: 2px;
+  margin-right: auto;
+  margin-top: 20px;
+}
 
 .aside {
   background-color: #182f52;
@@ -71,7 +85,7 @@ p {
 }
 
 .footer {
-  background-color: #182f52;
+  background-color: #ffffff;
   color: #ffffff;
   text-align: center;
   font-size: 12px;
