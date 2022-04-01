@@ -11,10 +11,10 @@ function openNav() {
 //Start of the block animation - French pages *********
 // List of sentences
 var _CONTENT = [ 
-    "Représentation avec zèle!", 
-    "Compétence confirmée!", 
-    "Compassion et loyauté!", 
-    "Honoraires justes et raisonnables!"
+  "Zealous representation!", 
+  "Proven competence!", 
+  "Compassion and loyalty!", 
+  "Fair and reasonable fees!"
     
 ];
 
