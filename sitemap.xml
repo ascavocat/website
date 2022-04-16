@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+   <url>
+        <loc>http://www.asc-avocat.ca/index.html</loc>
+    
+        <xhtml:link 
+            rel="alternate"
+            hreflang="en"
+            href="http://www.asc-avocat.ca/home.html"/>
+        <xhtml:link 
+            rel="alternate"
+            hreflang="fr"
+            href="http://www.asc-avocat.ca/index.html"/>
+    </url>
+
+
+ <url>
+        <loc>http://www.asc-avocat.ca/home.html</loc>
+    
+        <xhtml:link 
+            rel="alternate"
+            hreflang="fr"
+            href="http://www.asc-avocat.ca/index.html"/>
+        <xhtml:link 
+            rel="alternate"
+            hreflang="en"
+            href="http://www.asc-avocat.ca/home.html"/>
+    </url>
+
+
+    <url>
+        <loc>http://www.asc-avocat.ca/expertises.html</loc>
+    
+        <xhtml:link 
+            rel="alternate"
+            hreflang="en"
+            href="http://www.asc-avocat.ca/expertises_eng.html"/>
+        <xhtml:link 
+            rel="alternate"
+            hreflang="fr"
+            href="http://www.asc-avocat.ca/expertises.html"/>
+  </url>
+
+    <url>
+        <loc>http://www.asc-avocat.ca/expertises_eng.html</loc>
+    
+        <xhtml:link 
+            rel="alternate"
+            hreflang="fr"
+            href="http://www.asc-avocat.ca/expertises.html"/>
+        <xhtml:link 
+            rel="alternate"
+            hreflang="en"
+            href="http://www.asc-avocat.ca/expertises_eng.html"/>
+  </url>
+
+
+    <url>
+        <loc>http://www.asc-avocat.ca/rendez_vous.html</loc>
+    
+        <xhtml:link 
+            rel="alternate"
+            hreflang="en"
+            href="http://www.asc-avocat.ca/appointment.html"/>
+        <xhtml:link 
+            rel="alternate"
+            hreflang="fr"
+            href="http://www.asc-avocat.ca/rendez_vous.html"/>
+  </url>
+
+    <url>
+        <loc>http://www.asc-avocat.ca/appointment.html</loc>
+    
+        <xhtml:link 
+            rel="alternate"
+            hreflang="fr"
+            href="http://www.asc-avocat.ca/rendez_vous.html"/>
+        <xhtml:link 
+            rel="alternate"
+            hreflang="en"
+            href="http://www.asc-avocat.ca/appointment.html"/>
+  </url>
+
+
+    <url>
+        <loc>http://www.asc-avocat.ca/contact.html</loc>
+    
+        <xhtml:link 
+            rel="alternate"
+            hreflang="en"
+            href="http://www.asc-avocat.ca/contact_eng.html"/>
+        <xhtml:link 
+            rel="alternate"
+            hreflang="fr"
+            href="http://www.asc-avocat.ca/contact.html"/>
+  </url>
+
+    <url>
+        <loc>http://www.asc-avocat.ca/contact_eng.html</loc>
+    
+        <xhtml:link 
+            rel="alternate"
+            hreflang="fr"
+            href="http://www.asc-avocat.ca/contact.html"/>
+        <xhtml:link 
+            rel="alternate"
+            hreflang="en"
+            href="http://www.asc-avocat.ca/contact_eng.html"/>
+  </url>
+
+</urlset>
