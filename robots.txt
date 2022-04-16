@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: http://www.asc-avocat.ca/sitemap.xml
+Sitemap: https://www.asc-avocat.ca/sitemap.xml
