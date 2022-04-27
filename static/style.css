@@ -17,6 +17,18 @@
     color: white;
   
   }
+
+  .text-block_imm {
+    display: block;
+    width:42.5%;
+    position: absolute;
+    bottom: 0px;
+    text-align: center;
+    right: 0px;
+    background-color: rgba(0, 0, 0, 0.322);
+    color: white;
+  
+  }
 .resize {
   width: 100%;
   height : auto;
