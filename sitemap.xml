@@ -115,4 +115,31 @@
             href="https://asc-avocat.ca/contact_eng.html"/>
   </url>
 
+  <url>
+        <loc>https://www.asc-avocat.ca/droit_commercial.html</loc>
+    
+        <xhtml:link 
+            rel="alternate"
+            hreflang="en"
+            href="https://asc-avocat.ca/business_law.html"/>
+        <xhtml:link 
+            rel="alternate"
+            hreflang="fr"
+            href="https://asc-avocat.ca/droit_commercial.html"/>
+  </url>
+
+    <url>
+        <loc>https://www.asc-avocat.ca/business_law.html</loc>
+    
+        <xhtml:link 
+            rel="alternate"
+            hreflang="fr"
+            href="https://asc-avocat.ca/droit_commercial.html"/>
+        <xhtml:link 
+            rel="alternate"
+            hreflang="en"
+            href="https://asc-avocat.ca/business_law.html"/>
+  </url>
+
+
 </urlset>
