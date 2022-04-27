@@ -141,5 +141,31 @@
             href="https://asc-avocat.ca/business_law.html"/>
   </url>
 
+  <url>
+        <loc>https://www.asc-avocat.ca/droit_civil.html</loc>
+    
+        <xhtml:link 
+            rel="alternate"
+            hreflang="en"
+            href="https://asc-avocat.ca/civil_law.html"/>
+        <xhtml:link 
+            rel="alternate"
+            hreflang="fr"
+            href="https://asc-avocat.ca/droit_civil.html"/>
+  </url>
+
+    <url>
+        <loc>https://www.asc-avocat.ca/civil_law.html</loc>
+    
+        <xhtml:link 
+            rel="alternate"
+            hreflang="fr"
+            href="https://asc-avocat.ca/droit_civil.html"/>
+        <xhtml:link 
+            rel="alternate"
+            hreflang="en"
+            href="https://asc-avocat.ca/civil_law.html"/>
+  </url>
+
 
 </urlset>
