@@ -219,6 +219,31 @@
             href="https://asc-avocat.ca/family_law.html"/>
   </url>
 
+     <url>
+        <loc>https://www.asc-avocat.ca/recouvrement.html</loc>
+    
+        <xhtml:link 
+            rel="alternate"
+            hreflang="en"
+            href="https://asc-avocat.ca/debt_collection.html"/>
+        <xhtml:link 
+            rel="alternate"
+            hreflang="fr"
+            href="https://asc-avocat.ca/recouvrement.html"/>
+  </url>
+
+    <url>
+        <loc>https://www.asc-avocat.ca/debt_collection.html</loc>
+    
+        <xhtml:link 
+            rel="alternate"
+            hreflang="fr"
+            href="https://asc-avocat.ca/recouvrement.html"/>
+        <xhtml:link 
+            rel="alternate"
+            hreflang="en"
+            href="https://asc-avocat.ca/debt_collection.html"/>
+  </url>
 
 
 </urlset>
