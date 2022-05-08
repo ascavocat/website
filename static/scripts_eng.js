@@ -35,7 +35,7 @@ var _CURSOR = document.querySelector("#cursor");
 
 // Implements typing effect
 function Type() { 
-    // Get substring with 1 characater added
+    // Get substring with 1 character added
     var text =  _CONTENT[_PART].substring(0, _PART_INDEX + 1);
     _ELEMENT.innerHTML = text;
     _PART_INDEX++;
@@ -54,7 +54,7 @@ function Type() {
 
 // Implements deleting effect
 function Delete() {
-    // Get substring with 1 characater deleted
+    // Get substring with 1 character deleted
     var text =  _CONTENT[_PART].substring(0, _PART_INDEX - 1);
     _ELEMENT.innerHTML = text;
     _PART_INDEX--;
