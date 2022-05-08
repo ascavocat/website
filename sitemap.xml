@@ -245,5 +245,30 @@
             href="https://asc-avocat.ca/debt_collection.html"/>
   </url>
 
+  <url>
+        <loc>https://www.asc-avocat.ca/droit_penal.html</loc>
+    
+        <xhtml:link 
+            rel="alternate"
+            hreflang="en"
+            href="https://asc-avocat.ca/penal_law.html"/>
+        <xhtml:link 
+            rel="alternate"
+            hreflang="fr"
+            href="https://asc-avocat.ca/droit_penal.html"/>
+  </url>
+
+    <url>
+        <loc>https://www.asc-avocat.ca/penal_law.html</loc>
+    
+        <xhtml:link 
+            rel="alternate"
+            hreflang="fr"
+            href="https://asc-avocat.ca/droit_penal.html"/>
+        <xhtml:link 
+            rel="alternate"
+            hreflang="en"
+            href="https://asc-avocat.ca/penal_law.html"/>
+
 
 </urlset>
