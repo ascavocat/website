@@ -6,8 +6,6 @@ function openNav() {
       x.className = x.className.replace(" w3-show", "");
     }
   }
-
-
 //Start of the block animation - French pages *********
 // List of sentences
 var _CONTENT = [ 
@@ -15,24 +13,17 @@ var _CONTENT = [
     "Compétence confirmée!", 
     "Compassion et loyauté!", 
     "Honoraires justes et raisonnables!"
-    
 ];
-
 // Current sentence being processed
 var _PART = 0;
-
 // Character number of the current sentence being processed 
 var _PART_INDEX = 0;
-
 // Holds the handle returned from setInterval
 var _INTERVAL_VAL;
-
 // Element that holds the text
 var _ELEMENT = document.querySelector("#text");
-
 // Cursor element 
 var _CURSOR = document.querySelector("#cursor");
-
 // Implements typing effect
 function Type() { 
     // Get substring with 1 character added
@@ -51,7 +42,6 @@ function Type() {
         }, 1000);
     }
 }
-
 // Implements deleting effect
 function Delete() {
     // Get substring with 1 character deleted
@@ -78,15 +68,10 @@ function Delete() {
         }, 200);
     }
 }
-
 // Start the typing effect on load
 _INTERVAL_VAL = setInterval(Type, 100);
 
 // End animation of the block ***************
-
-
-
-
 
 // Accordion 
 
@@ -104,5 +89,3 @@ for (i = 0; i < acc.length; i++) {
     } 
   });
 }
-
-

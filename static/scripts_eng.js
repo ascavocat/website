@@ -6,8 +6,6 @@ function openNav() {
       x.className = x.className.replace(" w3-show", "");
     }
   }
-
-
 //Start of the block animation - French pages *********
 // List of sentences
 var _CONTENT = [ 
@@ -15,31 +13,23 @@ var _CONTENT = [
   "Proven competence!", 
   "Compassion and loyalty!", 
   "Fair and reasonable fees!"
-    
 ];
-
 // Current sentence being processed
 var _PART = 0;
-
 // Character number of the current sentence being processed 
 var _PART_INDEX = 0;
-
 // Holds the handle returned from setInterval
 var _INTERVAL_VAL;
-
 // Element that holds the text
 var _ELEMENT = document.querySelector("#text");
-
 // Cursor element 
 var _CURSOR = document.querySelector("#cursor");
-
 // Implements typing effect
 function Type() { 
     // Get substring with 1 character added
     var text =  _CONTENT[_PART].substring(0, _PART_INDEX + 1);
     _ELEMENT.innerHTML = text;
     _PART_INDEX++;
-
     // If full sentence has been displayed then start to delete the sentence after some time
     if(text === _CONTENT[_PART]) {
         // Hide the cursor
@@ -83,10 +73,6 @@ function Delete() {
 _INTERVAL_VAL = setInterval(Type, 100);
 
 // End animation of the block ***************
-
-
-
-
 
 // Accordion 
 
