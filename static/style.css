@@ -15,7 +15,6 @@
     right: 0px;
     background-color: rgba(0, 0, 0, 0.322);
     color: white;
-  
   }
 
   .text-block_imm {
@@ -27,7 +26,6 @@
     right: 0px;
     background-color: rgba(0, 0, 0, 0.322);
     color: white;
-  
   }
 
   .btn {
@@ -43,7 +41,7 @@
     border-radius: 12px;
     cursor: pointer;
   }
-  
+
   /* Darker background on mouse-over */
   .btn:hover {
     background-color: black;
@@ -63,7 +61,6 @@ p {
   text-justify: inter-word;
 }
 /* Body styles */
-
 * {
   box-sizing: border-box;
 }
@@ -78,7 +75,6 @@ p {
   float: left;
   padding: 15px;
 }
-
 
 #logo_img {
   max-width: 200px;
@@ -112,7 +108,6 @@ p {
   font-size: 14px;
   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
   max-height: 700px;
-  
 }
 
 .container_picture {
@@ -135,7 +130,6 @@ p {
   font-size: 12px;
   padding: 60px;
   width: 100%;
-  
 }
 
 /* For desktop: */
@@ -192,8 +186,6 @@ p {
 		background-color: #ffffff; 
 	}
 }
-
-
 
 /* Accordion */
 .accordion {
