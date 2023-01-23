@@ -15,6 +15,16 @@
       {
         "list": "off"
       }
+    ],
+    "compat-api/css": [
+      "default",
+      {
+        "ignore": [
+          "backdrop-filter",
+          "text-size-adjust",
+          "-webkit-overflow-scrolling"
+        ]
+      }
     ]
   }
 }
