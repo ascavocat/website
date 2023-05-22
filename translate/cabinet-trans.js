@@ -2,10 +2,10 @@ var arrLang = {
     "fr": {
 
     // head
-    "TITLE": "ASC Avocat — Cabinet d'avocat Montréal, Laval et Longueuil",
-    "KEYWORDS": "avocat, cabinet d'avocat, avocat Montréal, avocat Laval, avocat Longueuil, avocat droit civil, avocat droit commercial, avocat droit des affaires, avocat droit corporatif, avocat droit de la famille",
+    "TITLE": "Cabinet d'avocat - Montréal, Laval et Longueuil ",
+    "KEYWORDS": "cabinet d'avocat, Cabinet d'avocat Montréal, cabinet d'avocat Laval, Cabinet d'avocat Longueuil, avocat droit civil, avocat droit commercial, avocat droit des affaires, avocat droit corporatif, avocat droit de la famille",
 
-    "DESCRIPTION": "ASC Avocat offre des services juridiques adaptés selon les besoins de chaque client en droit civil, droit des affaires, droit immobilier, et en droit de la famille. En outre, notre cabinet d'avocat offre des services juridiques en ligne grâces à des technologies innovantes à des tarifs abordables à la portée de tous.",
+    "DESCRIPTION": "Notre cabinet d'avocat offre des services juridiques adaptés selon les besoins de chaque client en droit civil, droit des affaires, droit immobilier, et en droit de la famille. En outre, ASC Avocat offre des services juridiques en ligne grâces à des technologies innovantes à des tarifs abordables à la portée de tous.",
     
 
     // body
@@ -45,20 +45,16 @@ var arrLang = {
     "T21":"Contactez-nous",
 
 
-
-
-
-
     },
     //**********************************************************************
 
     "en": {
 
     // head
-    "TITLE": "ASC Avocat - Law firm Montreal, Laval and Longueuil",
-"KEYWORDS": "lawyer, law firm, lawyer Montreal, lawyer Laval, lawyer Longueuil, civil lawyer, commercial lawyer, business lawyer, corporate lawyer, family lawyer",
+    "TITLE": "Law Firm - Montreal, Laval and Longueuil",
+"KEYWORDS": "law firm, Law firm Montreal, law firm Laval, law firm Longueuil, civil lawyer, commercial lawyer, business lawyer, corporate lawyer, family lawyer",
 
-    "DESCRIPTION": "ASC Avocat offers legal services tailored to the needs of each client in civil law, business law, real estate law, and family law. In addition, our law firm offers online legal services through innovative technologies at affordable rates for everyone.",
+    "DESCRIPTION": "Our Law firm offers legal services tailored to the needs of each client in civil law, business law, real estate law, and family law. In addition, ASC Avocat offers online legal services through innovative technologies at affordable rates for everyone.",
     
 
     // body
