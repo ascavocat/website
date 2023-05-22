@@ -3,6 +3,26 @@
     "development"
   ],
   "hints": {
+    "axe/aria": [
+      "default",
+      {
+        "aria-required-children": "off",
+        "aria-command-name": "off"
+      }
+    ],
+    "axe/parsing": [
+      "default",
+      {
+        "duplicate-id-aria": "off",
+        "duplicate-id-active": "off"
+      }
+    ],
+    "axe/text-alternatives": [
+      "default",
+      {
+        "document-title": "off"
+      }
+    ],
     "axe/name-role-value": [
       "default",
       {
@@ -10,19 +30,12 @@
       }
     ],
     "no-inline-styles": "off",
-    "axe/structure": [
-      "default",
-      {
-        "list": "off"
-      }
-    ],
-    "compat-api/css": [
+    "compat-api/html": [
       "default",
       {
         "ignore": [
-          "backdrop-filter",
-          "text-size-adjust",
-          "-webkit-overflow-scrolling"
+          "iframe[allow]",
+          "iframe[loading]"
         ]
       }
     ]

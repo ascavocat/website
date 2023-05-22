@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@400;500;600;700&display=swap">
+      <link rel="canonical" href="https://legal-qc.ca/online/divorce-amiable" />
+      <link rel="stylesheet" href="/css/bulma/bulma.min.css">
+      <link rel="stylesheet" href="/css/main.css">
+      <link rel="stylesheet" href="/css/styles/famille.css">
+      <script src="/js/main.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+      <link rel="stylesheet" href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+      <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+      <title class="lang" Key="TITLE"></title>
+      <meta class="lang" Key="DESCRIPTION" name="description"  content="">
+      <meta class="lang" key="KEYWORDS" name="keywords"  content="">
+      <meta class= "lang" Key="TITLE"  property="og:title" content="" >
+      <meta class="lang" Key="DESCRIPTION"  property="og:description" content="" >
+      <meta property="og:type" content="website" >
+      <meta property="og:url" content="https://asc-avocat.ca/online-droit-famille/contrat-de-vie-commune" >
+      <meta property="og:image" content="https://asc-avocat.ca/images/og-asc-avocat.png" >
+      <meta property="og:image:width" content="1200" >
+      <meta property="og:image:height" content="627" >
+
+  </head>
+
+  <body>
+   
+    
+    <div>
+        <!-- Navbar large view -->
+        <section><nav class="navbar py-1 has-background-white"><div class="container px-8-mobile">
+          <div class="navbar-brand is-align-items-left">
+            <a class="navbar-item" href="/famille.html">
+              <span class="navbar-item px-0 title is-size-4 has-text-dark"><img src="/images/ascavocat-logo.png" alt="" width="auto" style="max-height: initial;"></span>
+            </a>
+          </div>
+        </section>
+    
+      <!-- FORM -->
+
+      <section>
+        <script type="text/javascript" src="https://form.jotform.com/jsform/230294614775259"></script>
+      </section>
+                
+       <!-- Footer -->
+                  
+       <section class="section mt-0 py-14 has-background-grey-darker"><div class="container">
+        <div class="columns is-4 is-align-items-center mb-0 pb-8" style="border-bottom: 1px solid rgba(255,255,255,0.15)">
+          <div class="column mb-12 mb-0-tablet" contenteditable="false">
+            <a class="title is-size-4 has-text-white" href="/famille.html"> <span class="has-text-primary title is-size-4">ASC Avocat</span>
+              <img class="image is-128x128" src="/images/online-court.png" alt="LégalQC, services juridiques en ligne" width="auto" contenteditable="false"></a>
+          </div>
+          <div class="column is-10">
+            <p class="has-text-white has-text-centered">Votre partenaire des services juridiques en ligne !</p><br>
+            <p class="has-text-primary has-text-centered">Your partner for online legal services!</p>
+            </div>
+        </div>
+        <div class="columns is-align-items-center mb-0 pt-14">
+          <div class="columns is-align-items-center mb-0 pt-14">
+            <div class="column">
+              <ul class="is-flex"><li>
+                <a href="https://www.facebook.com/ascavocat" target="_blank">
+                  <img src="/acros-assets/logo/facebook.svg" alt=""></a>
+                </li>
+                <li class="ml-2">
+                  <a href="https://mobile.twitter.com/asc_avocat" target="_blank">
+                    <img src="/acros-assets/logo/twitter.svg" alt=""></a>
+                </li>
+                <li class="ml-2">
+                  <a href="https://www.instagram.com/ascavocat" target="_blank">
+                    <img src="/acros-assets/logo/instagram.svg" alt=""></a>
+                </li>
+                <li class="ml-2">
+                  <a href="https://www.linkedin.com/company/asc-avocat" target="_blank">
+                    <img src="/acros-assets/logo/linkedin.svg" alt=""></a>
+                </li>
+              </ul></div>
+         
+        </div>
+        </div>
+      </section>
+    </div>
+
+    
+  <script>
+
+    var arrLang = {
+        "fr": {
+
+        // head
+        "TITLE": "Contrat de vie commune",
+        
+
+
+        "KEYWORDS": "contrat de vie commune, avocat en droit de la famille, avocat familial",
+
+
+        "DESCRIPTION": "Obtenez votre contrat de vie commune personnalisé avec un avocat en ligne en droit de la famille, une solution simple et abordable !",
+
+        
+
+
+
+
+        },
+        //**********************************************************************
+
+        "en": {
+
+        // head
+        "TITLE": "Cohabitation Contract",
+        
+
+        "KEYWORDS": "Cohabitation Contract, Family Lawyer, Family Attorney", 
+
+
+
+        "DESCRIPTION": "Get your personalized cohabitation contract with an online family law lawyer, a simple and affordable solution!",
+
+      
+
+        
+
+     
+        }
+      };
+
+
+    
+    // The default language is french
+    // var lang = "fr";
+
+    // Check for localStorage support
+    if('localStorage' in window){
+
+    var usrLang = localStorage.getItem('uiLang');
+    if(usrLang) {
+    lang = usrLang
+    }
+
+    }
+
+    // handling request for appropriate form based on user language ***
+    
+    // end of handling above request ***
+
+    console.log(lang);
+
+      $(document).ready(function() {
+
+        $(".lang").each(function(index, element) {
+          $(this).text(arrLang[lang][$(this).attr("key")]);
+        });
+      });
+
+      // get/set the selected language
+
+      $(".translate").click(function() {
+        var lang = $(this).attr("id");
+
+        // handling request for proposal form based on selected language ****
+       
+          // end here - handling selected language ***
+        
+
+
+        
+        // update localStorage key
+        if('localStorage' in window){
+            localStorage.setItem('uiLang', lang);
+            console.log( localStorage.getItem('uiLang') );
+        }
+
+        $(".lang").each(function(index, element) {
+          $(this).text(arrLang[lang][$(this).attr("key")]);
+        });
+      });
+
+
+  </script>
+    
+</body>
+</html>

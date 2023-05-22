@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@400;500;600;700&display=swap">
+      <link rel="stylesheet" href="css/bulma/bulma.min.css">
+      <link rel="stylesheet" href="css/main.css">
+      <link rel="stylesheet" href="css/main.css">
+      <link rel="stylesheet" href="css/styles/mystyles.css">
+      <link href="https://asc-avocat.ca/" rel="canonical" />
+      <script src="js/main.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+      <link rel="stylesheet" href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+      <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+      <title class="lang" key="TITLE"></title>
+      <meta class= "lang" name="description" key="DESCRIPTION" content="">
+      <meta class="lang" name="keywords" key="KEYWORDS" content="">
+      <meta class= "lang" Key= "TITLE" property="og:title" content="" >
+      <meta class= "lang" Key= "DESCRIPTION" property="og:description" content="" >
+      <meta property="og:type" content="website" >
+      <meta property="og:url" content="https://asc-avocat.ca/">
+      <meta property="og:image" content="https://asc-avocat.ca/images/og-asc-avocat.png">
+      <meta property="og:image:width" content="1200" >
+      <meta property="og:image:height" content="627" >
+      
+
+  </head>
+  <body>
+      <div class="">
+        <!-- Navbar large view -->
+        <section><nav class="navbar py-1 has-background-white"><div class="container px-8-mobile">
+          <div class="navbar-brand is-align-items-left">
+            <a class="navbar-item" href="#">
+              <span class="navbar-item px-0 title is-size-4 has-text-dark"><img src="images/ascavocat-logo.png" alt="" width="auto" style="max-height: initial;"></span>
+            </a>
+            <a class="navbar-menu-open navbar-burger" role="button" type="button" data-toggle="side-menu">
+              <span aria-hidden="true"></span>
+              <span aria-hidden="true"></span>
+              <span aria-hidden="true"></span>
+            </a>
+          </div>
+          <div class="navbar-menu">
+            <div class="navbar-start ml-auto mr-0">
+              <ul class="navbar-item pl-0"><li><a class="lang title is-size-6 has-text-grey-darker has-text-weight-normal navbar-item" Key="HOME" href="index.html">Accueil</a></li>
+                <li><a class="lang title is-size-6 has-text-grey-darker has-text-weight-normal navbar-item" Key="CABINET" href="cabinet-avocat.html">Notre cabinet </a></li>
+                <li><a class="lang title is-size-6 has-text-grey-darker has-text-weight-normal navbar-item" Key="SERVICES" href="services.html">Contact</a></li>
+                <li><a class="lang title is-size-6 has-text-grey-darker has-text-weight-normal navbar-item" Key="CONTACT" href="contact.html">Contact</a></li>
+              </ul></div>
+            <div class="navbar-end">
+              <div class="navbar-item is-hidden-mobile">
+                <div class="buttons"><a class="lang button is-primary"  Key="CONSULTATION" href="consultation.html">Consultation en ligne</a></div>
+        
+        
+                <div class="navbar-item">
+                  <div class="dropdown is-hoverable is active">
+                    <div class="dropdown-trigger">
+                      <button class="button is-ghost" aria-haspopup="true" aria-controls="dropdown-menu4">
+                        <span class="navbar-link has-text-black" style="text-decoration: none">Language</span>
+                        <span class="icon is-small">
+                          <i class="fas fa-angle-down" aria-hidden="true"></i>
+                        </span>
+                      </button>
+                    </div>
+                    <div class="dropdown-menu" id="dropdown-menu4" role="menu">
+                      <div class="dropdown-content">
+                        <a href="javascript:void();" id="en" class="translate dropdown-item">
+                          English
+                        </a>
+                        <a href="javascript:void();" id="fr" class="translate dropdown-item">
+                          Français
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+        
+        
+              </div>
+            </div>
+          </div>
+          </div>
+
+          <!-- Navbar smaller view -->
+        </nav><div class="navbar-side is-hidden is-fixed is-top-0 is-left-0 has-background-blur" style="z-index: 50; width:100%; height: 100%;">
+          <div class="is-absolute" style="z-index: -1;"></div>
+          <div class="container is-relative">
+            <a class="navbar-close is-absolute is-right-0 mt-6 mr-6" href="#">
+              <img src="acros-assets/icons/mobile-decline.svg" alt=""></a>
+          </div>
+          <aside class="py-6 px-6 pb-8 has-background-white is-flex is-flex-direction-column is-justify-content-space-between" style="height: 100%; width: 288px; overflow-y: auto"><div>
+            <a class="navbar-item title is-size-4 has-text-dark pl-4 mb-5" href="#">
+              <img src="images/logo-ascavocat.png" alt="" width="auto" style="max-height: initial;"></a>
+            <ul class="menu-list title is-size-6"><li><a class="lang py-4 px-6 has-text-grey-darker" Key="HOME" href="index.html">Accueil</a></li>
+              <li><a class="lang py-4 px-6 has-text-grey-darker"Key="CABINET" href="cabinet-avocat.html">Notre cabinet</a></li>
+              <li><a class="lang py-4 px-6 has-text-grey-darker"Key="SERVICES" href="services.html">Services</a></li>
+              <li><a class="lang py-4 px-6 has-text-grey-darker" Key="CONTACT" href="contact.html">Contact</a></li>
+            </ul></div>
+        
+        
+            <div class="navbar-item">
+              <div class="dropdown is-hoverable is active">
+                <div class="dropdown-trigger">
+                  <button class="button is-ghost" aria-haspopup="true" aria-controls="dropdown-menu4">
+                    <span class="navbar-link has-text-black" style="text-decoration: none">Language</span>
+                    <span class="icon is-small">
+                      <i class="fas fa-angle-down" aria-hidden="true"></i>
+                    </span>
+                  </button>
+                </div>
+                <div class="dropdown-menu" id="dropdown-menu4" role="menu">
+                  <div class="dropdown-content">
+                    <a href="#en" id="en" class="translate dropdown-item">
+                      English
+                    </a>
+                    <a href="#fr" id="fr" class="translate dropdown-item">
+                      Français
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+        
+            <div>
+              <div class="buttons mb-8"><a class="lang button is-primary is-fullwidth" Key="CONSULTATION" href="consultation.html">Consultation en ligne</a></div>
+              <small class="lang has-text-grey-darker ml-6" Key="RIGHTS">Services conçus et mis en oeuvre par ASC Avocat - Tous droits réservés</small>
+            </div>
+          </aside></div>
+        </section>
+    
+        <!-- END both Navbars  -->
+                  
+        <section class="section" style="background-image: url('acros-assets/images/headers/header-1-bg.jpg'); background-size: cover; background-position: center;">
+          
+          
+          
+          <div class="container">
+          <div class="columns">
+            <div class="column pt-8-tablet mb-12 mb-0-tablet">
+              <h1 class="lang has-text-white has-mw-xl title is-size-2" Key="T1">DOMAINES D'EXPERTISES — ASC Avocat</h1>
+              <div class="has-mw-2xl mx-auto has-text-centered is-relative" style="z-index: 1;">
+                
+                <a class="title is-size-6 has-text-weight-medium is-flex is-align-items-center has-text-white">
+                  <img class="ml-4 mr-2" src="acros-assets/icons/blog/arrow-right-green.svg" alt=""><span class="lang has-text-left" Key="T2">Droit des affaires </span> 
+                </a>
+                <a class="title is-size-6 has-text-weight-medium is-flex is-align-items-center has-text-white">
+                  <img class="ml-4 mr-2 " src="acros-assets/icons/blog/arrow-right-green.svg" alt=""><span class="lang has-text-left" Key="T3" >Droit civil</span>
+                </a>
+            
+                <a class="title is-size-6 has-text-weight-medium is-flex is-align-items-center has-text-white">
+                  <img class="ml-4 mr-2 " src="acros-assets/icons/blog/arrow-right-green.svg" alt=""><span class="lang has-text-left" Key="T4"> Droit immobilier</span>
+                </a>
+            
+                <a class="title is-size-6 has-text-weight-medium is-flex is-align-items-center has-text-white">
+                  <img class="ml-4 mr-2" src="acros-assets/icons/blog/arrow-right-green.svg" alt=""><span class="lang has-text-left" Key="T5"> Droit de la famille </span>
+                </a>
+                <br>
+                <div class="buttons"><a class="lang button is-primary mr-4" Key="T6" href="rendez-vous.html">Prendre un rendez-vous</a></div>
+            
+            
+            
+            
+              </div>
+        
+            </div>
+            <div class="column">
+              <img class="image mx-auto" src="images/Business-lady2.png"  alt=" ASC avocat, cabinet d'avocat en droit civil & commercial, droit des affaires,  droit de la famille">
+        </div>
+          </div>
+          </div>
+        </section>
+        
+        
+
+        <!-- Slideshow -->
+
+        <div class="mt-10 "  id="slider">
+          
+
+          <div class="slideshow-container m-0-mobile">
+
+          <div class="mySlides fade">
+            <div class="numbertext">1 / 5</div>
+            <img src="images/justice1.png" style="width:38%; margin-left: auto; margin-right: auto; display: block;" alt="">
+            <div class="caption-text mb-2-mobile">
+              <h4 class="lang title is-4 has-text-primary" Key="T7">DROIT DES AFFAIRES</h4> 
+              <P class="lang subtitle  has-text-primary" Key="T7-1">Bénéficier de nos conseils stratégiques et une représentation solide pour proteger vos intérêts</P>
+            </div>
+          </div>
+
+          <div class="mySlides fade">
+            <div class="numbertext">2 / 5</div>
+            <img src="images/law-pic.png" style="width:40%; margin-left: auto; margin-right: auto; display: block;" alt="">
+            <div class="caption-text mt-0-mobile">
+              <h4 class="lang title is-4 has-text-primary" Key="T8">DROIT CIVIL</h4>
+              <P class="lang subtitle  has-text-primary" Key="T8-1">Détermination & efficacité pour résoudre vos dossiers en matière civile</P>
+            </div>
+          </div>
+
+          <div class="mySlides fade">
+            <div class="numbertext">3 / 5</div>
+            <img src="images/droit-immobilier.jpg" style="width:45%; margin-left: auto; margin-right: auto; display: block;" alt="">
+            <div class="caption-text">
+              <h4 class="lang title is-4 has-text-primary" Key="T9">DROIT IMMOBILIER</h4>
+              <P class="lang subtitle  has-text-primary" Key="T9-1">Représentation avec zèle pour proteger vos droits en litige d'immobilier</P>
+            </div>
+           
+          </div>
+
+          <div class="mySlides fade">
+            <div class="numbertext">4 / 5</div>
+            <img src="images/family-icon.png" style="width:50%; margin-left: auto; margin-right: auto; display: block;" alt="">
+            <div class="caption-text">
+              <h4 class="lang title is-4 has-text-primary" Key="T10">DROIT DE LA FAMILLE</h4>
+              <P class="lang subtitle  has-text-primary" Key="T10-1">Dévouement & loyauté pour faire valoir vos droits en matière familiale</P>
+
+            </div>
+          </div>
+
+          <div class="mySlides fade">
+            <div class="numbertext">5 / 5</div>
+            <img src="images/justice_1_1.png" style="width:45%; margin-left: auto; margin-right: auto; display: block;" alt="">
+            <div class="caption-text">
+              <h4 class="lang title is-4 has-text-primary" Key="T11">SERVICES JURIDIQUES</h4>
+              <P class="lang subtitle  has-text-primary" Key="T11-1">Une approche personnalisée pour chaque client</P>
+
+            </div>
+          </div>
+
+          </div>
+          <br>
+
+
+          <div style="text-align:center">
+            <span class="dot"></span> 
+            <span class="dot"></span> 
+            <span class="dot"></span> 
+            <span class="dot"></span> 
+            <span class="dot"></span> 
+
+
+          </div>
+        </div>
+        <br><br>
+        <!-- End of slideshow -->
+
+
+        <section class=" section py-1">
+          <div class="container">
+            <img class="is-absolute" src="acros-assets/images/call-to-action/cta-2-bg.png" alt="">
+            
+            
+            <p class="lang mb-12 subtitle  mx-auto  has-text-justified" Key="T12">ASC Avocat offre des services juridiques dans divers domaines de droit pour répondre à vos besoins spécifiques. Explorez nos domaines d'expertises en cliquant sur l'expertise concernée pour avoir plus de détails.</p>   
+         
+          </div>
+          <div class="is-absolute is-bottom-0 is-left-0" style="width: 100%; height: 264px;"></div>
+        </section>
+
+          <!-- Accordion start here -->
+          <section class=" section">
+
+
+            <div class="accordion_container container">
+
+              <!-- TAB 1 -->
+
+              <div  class="accordion_head mx-auto lang" key="T13">DROIT DES AFFAIRES <span class="plusminus" key="P">+</span></div>
+              <div  class="accordion_body section" style="display: none;">
+                <p  class="lang subtitle  mx-auto has-text-justified " key="T14">La pratique de ASC Avocat en droit des affaires est centrée sur le droit commercial, droit des sociétés, droit des assurances, droit des transactions transfrontalière et le droit pénal des affaires. Notre cabinet d'avocat a une pratique dédiée à la fois aux litiges commerciaux et aux transactions commerciales. Cette approche integrée, nous permet non seulement de résoudre les litiges commerciaux particuliers, mais aussi ceux à multiples facettes. De plus, notre expérience diversifiée et notre engagement envers nos client permettent d'anticiper les problèmes pour les résoudre avec efficacité.</p>
+
+                <h2 class="lang mb- title is-4 " Key="T15" contenteditable="false">Droit commercial</h2>
+                
+
+                <p class="lang mb-0 mt-0 subtitle    has-text-justified " key="T16">Sans vouloir dresser une liste exhaustive, notre pratique en droit commercial comprend :</p>
+
+                <div class="subtitle">
+
+                    <li class="lang" Key="T16-1">litiges commerciaux</li>
+                    <li class="lang" Key="T16-2">Négociation et rédaction des contrats commerciaux</li>
+                    <li class="lang" Key="T16-3">Recouvrement des créances commerciales</li>
+                    <li class="lang" Key="T16-4">Défense en matière de protection du consommateur</li>
+                    <li class="lang" Key="T16-5">Responsabilité civile en demande ou en défense</li>
+                    <li class="lang" Key="T16-6">Responsabilité du fabricant</li>
+                    <li class="lang" Key="T16-7">Recours divers dans le domaine commercial: les injonctions, saisies et autres recours extraordinaires</li>
+                    <li class="lang" Key="T16-8">litige découlant de conventions d’achat et de vente de biens réels</li>
+                    <li class="lang" Key="ETC">Etc.</li>
+    
+                </div>
+
+
+                <h2 class="lang mb- title is-4 " Key="T17" contenteditable="false">Droit des sociétés</h2>
+                <p class="lang mb-0 mt-0 subtitle    has-text-justified " key="T18">Notre pratique en droit des sociétés comprend entre autres :</p>
+
+                <div class="subtitle">
+
+                    <li class="lang" Key="T18-1">litiges entre actionnaires</li>
+                    <li class="lang" Key="T18-2">Constitution d'entreprises</li>
+                    <li class="lang" Key="T18-3">Organisation ou reorganisation juridique de la société</li>
+                    <li class="lang" Key="T18-4">Rédaction des conventions</li>
+                    <li class="lang" Key="T18-5">Fusions et acquisitions</li>
+                    <li class="lang" Key="T18-6">Audits de conformité</li>
+                    <li class="lang" Key="T18-7">Accords entre les actionnaires;</li>
+                    <li class="lang" Key="T18-8">Dissolution</li>
+                    <li class="lang" Key="ETC">Etc.</li>
+    
+                </div>
+
+                <h2 class="lang mb- title is-4 " Key="T19" contenteditable="false">Droit des assurances</h2>
+                
+
+                <p class="lang mb-0 mt-0 subtitle    has-text-justified " key="T20">Nous conseillons et représentons nos clients stratégiquement en droit des assurances, notamment :</p>
+
+                <div class="subtitle">
+
+                    <li class="lang" Key="T20-1">litige relatif aux refus de couverture</li>
+                    <li class="lang" Key="T20-2">Recours de type wellington — obligé l'assureur à vous défendre</li>
+                    <li class="lang" Key="T20-3">Estimation biaisé des dommages</li>
+                    <li class="lang" Key="T20-4">Négociation dans les litiges d'assurance</li>
+                    <li class="lang" Key="T20-5">Analyse des contrats d'assurance</li>
+                    <li class="lang" Key="T20-6">Subrogation et reclamation</li>
+                    <li class="lang" Key="T20-7">litige relatif à l'interpréation des clauses de la police d'assurance</li>
+                    <li class="lang" Key="ETC">Etc.</li>
+    
+                </div>
+
+
+                <h2 class="lang mb- title is-4 " Key="T21" contenteditable="false">Droit des transactions transfrontalières</h2>
+                
+
+                <p class="lang mb-0 mt-0 subtitle    has-text-justified " key="T22">ASC Avocat se focalise sur les transactions transfrontalières vers l'Afrique ou vers l'Amérique du Nord. Avec nos partenariats stratégiques dans le milieu juridique et des affaires, nous pouvons accompagner nos clients pour des transactions sécuritaires et bien réussies. Nos clients bénéficient de nos expertises multidisciplinaires en Amérique du Nord et des connaissances et expériences approfondies en droit des affaires en Afrique (OHADA).</p>
+
+                <p class="lang mb-0 mt-0 subtitle    has-text-justified " key="T23">Que vous soyez une entreprise, un opérateur économique en Amérique du Nord ou en Afrique et désirez de faire des affaires en Afrique ou en Amérique du Nord, ASC Avocat peut entre autres vous assister dans les transactions minières, commerciales, immobilières et des nouvelles technologies pour:</p>
+
+
+                <div class="subtitle">
+
+                    <li class="lang" Key="T23-1">Analyser les risques spécifiques associés aux contrats</li>
+                    <li class="lang" Key="T23-2">Négocier les contrats</li>
+                    <li class="lang" Key="T23-3">Rédiger les contrats et les accords</li>
+                    <li class="lang" Key="T23-4">Assurer un suivi pour l’exécution en conformité aux modalités négociées</li>
+                    <li class="lang" Key="T23-5">Conseiller juridiquement sur les questions de conformité</li>
+                    <li class="lang" Key="T23-6">Gérer les litiges contractuels</li>
+                    <li class="lang" Key="ETC">Etc.</li>
+    
+                </div>
+
+
+                <h2 class="lang mb- title is-4 " Key="T24" contenteditable="false">Droit pénal des affaires</h2>
+                
+
+                <p class="lang mb-0 mt-0 subtitle    has-text-justified " key="T25">Nous conseillons et représentons nos clients avec zèle par rapport aux infractions pénales ou des accusation de criminalité en col blanc qui surgissent dans la vie des affaires de leurs entreprises. Nos clients peuvent compter sur ASC Avocat pour défendre leurs droits relativement aux constats d’infraction de Revenu Québec, Revenu Canada, l’autorité des marchés financiers ou tout autre organisme gouvernemental provincial ou fédérale :</p>
+
+                <div class="subtitle">
+
+                    <li class="lang" Key="T25-1">Infractions règlementaires</li>
+                    <li class="lang" Key="T25-2">Trafic d’influence</li>
+                    <li class="lang" Key="T25-3">Pratiques déloyales, abusives ou frauduleuse</li>
+                    <li class="lang" Key="T25-4">Infractions relatives à la vente ou l'impôt sur le tabac</li>
+                    <li class="lang" Key="T25-5">Infractions liées aux lois fiscales</li>
+                    <li class="lang" Key="T25-6">Manipulation d'actions et délit d'initié</li>
+                    <li class="lang" Key="T25-7">infractions rélatives à détention d'une licence</li>
+                    <li class="lang" Key="T25-8">Fraude et malversation financière</li>
+                    <li class="lang" Key="ETC">Etc.</li>
+    
+                </div>
+
+
+
+                
+
+              </div>
+
+              <!-- TAB 2 -->
+
+              <div class="lang accordion_head section" key="T26">DROIT CIVIL<span class="plusminus">+</span></div>
+              <div class="accordion_body section" style="display: none;">
+                <p class="lang mb-0 mt-0 subtitle    has-text-justified " key="T27">Chez ASC Avocat, nous nous efforçons de conseiller judicieusement nos clients et de les représenter avec zèle dans le but d'obtenir des résultats satisfaisants. Dotés d'une expertise solide dans les problématiques en droit civil, nous possédons la compétence requise pour gérer vos dossiers avec efficacité. Nous comprenons les enjeux pour nos clients et nous nous engageons à œuvrer en leur faveur dans diverses situations:</p>
+
+                <div class="subtitle">
+
+                  <li class="lang" Key="T27-1">Responsabilité civile en demande ou en défense</li>
+                  <li class="lang" Key="T27-2">Saisie avant jugement</li>
+                  <li class="lang" Key="T27-3">Opposition à la saisie</li>
+                  <li class="lang" Key="T27-4">Potection du consommateur</li>
+                  <li class="lang" Key="T27-5">Diffamation</li>
+                  <li class="lang" Key="T27-6">Litige en matière de succession</li>
+                  <li class="lang" Key="T27-7">Recouvrement de créances</li>
+                  <li class="lang" Key="T27-8">litige contractuel</li>
+                  <li class="lang" Key="ETC">Etc.</li>
+  
+              </div>
+
+              <p class="lang mb-0 mt-0 subtitle    has-text-justified " key="T28">Les litiges civils peuvent s'avérer longs et coûteux pour toutes les parties engagées. C'est pourquoi il est essentiel d'avoir à vos côtés un avocat en droit civil pour défendre efficacement vos droits en tribunal.</p>
+
+              <p class="lang mb-0 mt-0 subtitle    has-text-justified " key="T29">Si vous êtes à la recherche d'un avocat spécialisé en droit civil, n'hésitez pas à nous contacter dès aujourd'hui par téléphone ou à planifier une consultation. Nous sommes prêts à vous aider avec votre situation juridique.</p>
+
+
+
+
+              </div>
+
+
+
+              <!-- TAB 3 -->
+              <div class="lang accordion_head section" key="T30">DROIT IMMOBILIER<span class="plusminus">+</span></div>
+              <div class="accordion_body section" style="display: none;">
+                <p class="lang mb-0 mt-0 subtitle    has-text-justified " key="T31">ASC Avocat possède une expertise en droit immobilier, notamment : vices cachés, les recours hypothécaires, les litiges relatifs au bail commercial, et d'autres litiges dans le domaine de la construction.</p>
+
+                <h2 class="lang mb- title is-4 " Key="T32" contenteditable="false">Vices cachés</h2>
+                
+
+                <p class="lang mb-0 mt-0 subtitle    has-text-justified " key="T33">La découverte de vices cachés peut s'avérer stressante et onéreuse. ASC Avocat est à vos côtés pour vous guider tout au long de ce processus complexe. Nos interventions en droit immobilier pour les vices cachés comprennent entre autres:</p>
+
+                <div class="subtitle">
+
+                    <li class="lang" Key="T33-1">Défauts de construction et malfaçons</li>
+                    <li class="lang" Key="T33-2">Problèmes d'humidité et d'infiltration d'eau</li>
+                    <li class="lang" Key="T33-3">Problèmes de fondation et de structure</li>
+                    <li class="lang" Key="T33-4">Problèmes d'isolation et de ventilation</li>
+                    <li class="lang" Key="T33-5">Problèmes électriques et de plomberie</li>
+                    <li class="lang" Key="T33-6">Infestations de parasites et de moisissurest</li>
+                    <li class="lang" Key="ETC">Etc.</li>
+    
+                </div>
+
+                <p class="lang mb-0 mt-0 subtitle    has-text-justified " key="T34">Les litiges relatifs aux vices cachés peuvent être longs et coûteux pour toutes les parties impliquées. C'est pourquoi vous avez besoin d'un avocat compétent en droit immobilier qui défendra vos droits en matière de vices cachés. ASC Avocat est reconnu pour son dévouement en tant que plaideur afin d'obtenir des resultats satisfaisants.</p>
+
+                <p class="lang mb-0 mt-0 subtitle    has-text-justified " key="T35">Si vous êtes à la recherche d'un avocat en droit immobilier en matières de vices cachés, n'hésitez pas à nous contacter dès aujourd'hui par téléphone ou à planifier une consultation. Nous sommes prêts à vous aider avec votre situation juridique.</p>
+
+
+                <h2 class="lang mb- title is-4 " Key="T36" contenteditable="false">Litiges de la construction et recours hypothécaires</h2>
+                
+
+                <p class="lang mb-0 mt-0 subtitle    has-text-justified " key="T37">Notre cabinet d'avocat peut intervenir pour vous conseiller et représenter lors des litiges en contruction ou des recours hypotécaires. Que vous soyez un entrepreneur général, un sous-traitant, architectes, un client, un créancier hypothécaire ou un débiteur, nous pouvons vous représenter efficacement pour faire valoir vos droits dans un litige de construction. Grâce à notre expertise en droit de la construction et en recours hypothécaires, nous sommes en mesure de gérer efficacement vos affaires et de trouver des solutions adaptées à vos besoins. Nous intervenons dans diverses situations comme:</p>
+
+                <div class="subtitle">
+
+                    
+                    <li class="lang" Key="T37-1">Résiliation de contrat de la construction</li>
+                    <li class="lang" Key="T37-2">Garanties, malfaçons en construction</li>
+                    <li class="lang" Key="T37-3">Responsabilité professionnelle</li>
+                    <li class="lang" Key="T37-4">Rédaction de préavis de recours hypotécaires</li>
+                    <li class="lang" Key="T37-5">litige relatif à l'assurance lors de la construction</li>
+                    <li class="lang" Key="T37-6">litiges reliés au retards, conditions imprevues, modification à l'ouvrage ... </li>
+                    <li class="lang" Key="T37-7">Recouvrement des créances de la construction </li>
+                    <li class="lang" Key="T37-8">Hypothèque légale de la construction</li>
+                    <li class="lang" Key="T37-9">Delaissement forcé et vente sous contrôle de justice</li>
+                    <li class="lang" Key="T37-10">Procédure judiciaire en radiation d'inscription d'hypothèque illégale</li>
+                    <li class="lang" Key="T37-11">Avis juridiques sur les questions hypothécaires</li>
+                    <li class="lang" Key="T37-12">Recours divers: les injonctions, ordonnance de sauvegarde, saisies et autres recours extraordinaireS</li>
+                    <li class="lang" Key="T37-13">Exécution de jugement rendu au Québec ou dans d'autres provinces ou à l'étranger</li>
+
+                    <li class="lang" Key="ETC">Etc.</li>
+    
+                </div>
+
+                <p class="lang mb-0 mt-0 subtitle    has-text-justified " key="T38">Nous restons à votre disposition pour toute question relative à l'intervention de ASC Avocat dans le cadre d'un litige en construction ou d'un recours hypothécaire ou d'autres procédures connexes.</p>
+
+                
+                <h2 class="lang mb- title is-4 " Key="T39" contenteditable="false">Bail Commercial</h2>
+                
+
+                <p class="lang mb-0 mt-0 subtitle    has-text-justified " key="T40">ASC Avocat a l'expertise réquise pour vous conseiller et représenter pour votre de bail commercial. Que vous soyez le locateur ou le locataire, nous pouvons vous représenter efficacement pour faire valoir vos droits dans le bail commercial. Nous intervenons dans diverses situations comme:</p>
+
+                <div class="subtitle">
+
+                    <li class="lang" Key="T40-1">Avis juridique sur l'application des clauses du bail commercial</li>
+                    <li class="lang" Key="T40-2">Procédure de recouvrement des loyers impayés</li>
+                    <li class="lang" Key="T40-3">Résiliation du bail pour cause</li>
+                    <li class="lang" Key="T40-4">Réduction de loyers pour perte de jouissance des lieux loués</li>
+                    <li class="lang" Key="T40-5">Recours divers: les injonctions, ordonnance de sauvegarde, saisies et autres recours</li>
+                    <li class="lang" Key="T40-6">Recours en dommages ou en compensation relativement au bail</li>
+                    <li class="lang" Key="T40-7">Rédaction, négociation des baux commerciaux</li>
+
+
+
+                    <li class="lang" Key="ETC">Etc.</li>
+    
+                </div>
+
+                <p class="lang mb-0 mt-0 subtitle    has-text-justified " key="T41">Nous restons à votre disposition pour toute question relative aux services de ASC Avocat dans le cadre du bail commerical.</p>
+                
+              
+
+              </div>
+
+              <!-- TAB 4 -->
+              <div class="lang accordion_head section" KEY="T42">DROIT DE LA FAMILLE<span class="plusminus">+</span></div>
+              <div class="accordion_body section" style="display: none;">
+                <p class="lang mb-0 mt-0 subtitle    has-text-justified " key="T43">En matière de droit de la famille, ASC Avocat comprend les enjeux émotionnels et financiers impliqués. Nous savons que les affaires de droit familial peuvent être sensibles et chargées d'émotion, c'est pourquoi nous serons à vos côtés pour vous guider à travers ce processus complexe.Nous pouvons vous conseiller et représenter avec compassion et professionnalisme dans diverses situations familiales: </p>
+
+                <div class="subtitle">
+
+                  <li class="lang" Key="T43-1">Divorce ou sépartion</li>
+                  <li class="lang" Key="T43-2">rupture de conjoints de fait</li>
+                  <li class="lang" Key="T43-3">Garde d'enfants et droits d'accès</li>
+                  <li class="lang" Key="T43-4"> Demande en fixation de pension alimentaire </li>
+                  <li class="lang" Key="T43-5">Contrats matrimoniaux</li>
+                  <li class="lang" Key="T43-6">Déchéance de l'autorité parentale</li>
+                  <li class="lang" Key="T43-7">Partage des biens</li>
+                  <li class="lang" Key="">Etc.</li>
+  
+              </div>
+
+              <p class="lang mb-0 mt-0 subtitle    has-text-justified " key="T44">Les litiges familiaux peuvent être à la fois émotionnellement et financièrement éprouvants. C'est pourquoi vous avez besoin d'un avocat en droit de la famille pour défendre vos droits. ASC Avocat est reconnu pour son dévouement à la défense des droits de ses clients devant les tribunaux.</p>
+
+              <p class="lang mb-0 mt-0 subtitle    has-text-justified " key="T45">Si vous avez besoin d'un avocat spécialisé en droit de la famille, contactez-nous dès aujourd'hui pour une consultation. Nous sommes prêts à vous aider à naviguer dans le monde complexe du droit de la famille.</p>
+              </div>
+            
+            </div>
+
+          </section>
+
+          <!-- End Accordion -->
+
+          <section class="section py-16">
+            <div class="container">
+              <img class="is-absolute" src="acros-assets/images/call-to-action/cta-10-bg.png" alt="">
+              <div class="py-16 px-8 has-background-grey-darker" style="border-radius: 6px;">
+                <div class="has-mw-2xl mx-auto has-text-centered is-relative" style="z-index: 1;">
+                  <h2 class="lang title is-3 has-text-white" Key="T46">Nos services juridiques 100% en ligne</h2>
+                  <p class="lang mb-10 subtitle has-text-white  mx-auto" Key="T47">Solutions juridiques simples, convenables et abordables pour tous.</p>
+                  <div class="buttons is-centered"><a class=" lang button is-primary has-text-white" Key="T48" href="services-en-ligne.html">Consulter nos services en ligne</a></div>
+                </div>
+              </div>
+            </div>
+          </section>
+         
+
+        
+          
+          
+       
+        
+        
+        
+
+
+
+        <!-- Footer  -->
+                  
+        <section class="section py-14 has-background-grey-darker"><div class="container">
+          <div class="columns is-4 is-align-items-center mb-0 pb-8" style="border-bottom: 1px solid rgba(255,255,255,0.15)">
+            <div class="column mb-12 mb-0-tablet" contenteditable="false">
+              <a class="title is-size-4 has-text-white" href="#"> <span class="has-text-primary title is-size-4">ASC Avocat</span>
+                <img class="image is-128x128" src="images/online-court.png" alt="LégalQC, services juridiques en ligne" width="auto" contenteditable="false"></a>
+            </div>
+            <div class="column is-8">
+              <ul class="is-flex-tablet is-justify-content-end"><li class="mb-6 mb-0-tablet"><a class="lang title is-size-6 has-text-white" Key="HOME" href="index.html" contenteditable="false">Accueil</a></li>
+                <li class="mb-6 mb-0-tablet ml-16-tablet"><a class="lang title is-size-6 has-text-white" Key="CABINET" href="services.html" contenteditable="false">Notre cabinet</a></li>
+                <li class="mb-6 mb-0-tablet ml-16-tablet"><a class="lang title is-size-6 has-text-white" Key="HOW" href="services.html" contenteditable="false">Services</a></li>
+                <li class="mb-6 mb-0-tablet ml-16-tablet"><a class="lang title is-size-6 has-text-white" Key="CONTACT" href="contact.html" contenteditable="false">Contact</a></li>
+                <li class="mb-6 mb-0-tablet ml-16-tablet"><a class="lang title is-size-6 has-text-white" Key="CONSULTATION" href="consultation.html" contenteditable="false">Consultation en ligne</a></li>
+        
+              </ul></div>
+          </div>
+          <div class="columns is-align-items-center mb-0 pt-14">
+            <div class="column">
+              <ul class="is-flex"><li>
+                <a href="https://www.facebook.com/ascavocat" target="_blank">
+                  <img src="acros-assets/logo/facebook.svg" alt=""></a>
+                </li>
+                <li class="ml-2">
+                  <a href="https://mobile.twitter.com/asc_avocat" target="_blank">
+                    <img src="acros-assets/logo/twitter.svg" alt=""></a>
+                </li>
+                <li class="ml-2">
+                  <a href="https://www.instagram.com/ascavocat" target="_blank">
+                    <img src="acros-assets/logo/instagram.svg" alt=""></a>
+                </li>
+                <li class="ml-2">
+                  <a href="https://www.linkedin.com/company/asc-avocat" target="_blank">
+                    <img src="acros-assets/logo/linkedin.svg" alt=""></a>
+                </li>
+              </ul></div>
+            <div class="column has-text-right">
+              <p class="lang mb-0 title is-size-6 has-text-white" Key="RIGHTS" style="opacity: 0.5;" contenteditable="true">Services conçus et mis en oeuvre par ASC Avocat - Tous droits réservés</p>
+            </div>
+          </div>
+          </div>
+        </section>
+      </div>
+
+      <!-- Script for slideshow -->
+
+  <script>
+    let slideIndex = 0;
+    showSlides();
+    
+    function showSlides() {
+      let i;
+      let slides = document.getElementsByClassName("mySlides");
+      let dots = document.getElementsByClassName("dot");
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) {slideIndex = 1}    
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" activeDot", "");
+      }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " activeDot";
+      setTimeout(showSlides, 3000); // Change image every 2 seconds
+    }
+  </script>
+
+  <!-- Accordion JQuery from http://jsfiddle.net/subhranild/u5d35La7/1/  -->
+
+        <script src="js/accordion.js"></script>
+
+        <!-- Translation -->
+
+      <script src="translate/services-trans.js"></script>
+  </body>
+</html>
