@@ -19,7 +19,7 @@ var arrLang = {
     "RIGHTS": "Services conçus et mis en oeuvre par ASC Avocat - Tous droits réservés",
 
     "T1":"Développer",
-    "T2":"DES SERVICES D'AVOCAT ADAPTÉES",
+    "T2":"DES SERVICES D'AVOCAT ADAPTÉS",
     "T3":"selon les besoins de chaque client.",
     "T4":"Prendre un rendez-vous",
     "T5":"SERVICES D'AVOCAT À DES PRIX COMPÉTITIFS",
