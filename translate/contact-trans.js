@@ -5,7 +5,7 @@ var arrLang = {
     "TITLE": "Contact ASC Avocat, services jurdiques en ligne",
     "KEYWORDS": "Contact de ASC AVocat, Services jurdiques en ligne, Service jurdique en ligne, LégalQC, droit de la famille, petites créance, droit des affaires, droit corporatif, droit civil, droit d'immigration",
 
-    "DESCRIPTION": "Vous pouvez joindre ASC Avocat pour des services juridiques avec des tarifs avantageux en droit  des affaires, droit civil, droit immobilier et en droit de la famille. Nous sommes joingnables par téléphone, WhatsApp, SMS... Notre cabinet offre aussi services juridiques en ligne avec des tarifs abordables et à la portée de tous. N'hésitez surtout pas à communiquer avec ASC Avocat.",
+    "DESCRIPTION": "Vous pouvez joindre ASC Avocat pour des services juridiques avec des tarifs avantageux en droit  des affaires, droit civil, droit immobilier et en droit de la famille. Nous sommes joingnables par téléphone, WhatsApp, SMS... Notre cabinet offre aussi des services juridiques en ligne avec des tarifs abordables et à la portée de tous. N'hésitez surtout pas à communiquer avec ASC Avocat.",
     
 
     // body
