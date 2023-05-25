@@ -20,7 +20,7 @@ var arrLang = {
 
     "T1":"Montréal — Laval — Longueuil",
     "T2":"CABINET D'AVOCAT",
-    "T3":"pour des solutions juridiques adaptées selon les besoins de chaque client.",
+    "T3":"Pour des solutions juridiques adaptées selon les besoins de chaque client.",
     "T4":"Prendre un rendez-vous",
     "T5":"Solutions juridiques simples et adaptées au besoins de chaque client.",
     "T6":"Membre du Barreau du Québec",
@@ -34,11 +34,11 @@ var arrLang = {
 
     "T11":"Notre cabinet d'avocat représente avec détermination et zèle des clients en droit des affaires, droit civil, droit immobilier et en droit de la famille. L'étendue de notre expertise nous permet de servir les besoins juridiques présents et futurs de nos clients. ASC Avocat se considère comme un véritable partenaire dans ce processus, et nous sommes passionnés par le fait d'accompagner nos clients à chaque étape de leur dossier dans le but d'obtenir une issue favorable.",
     "T12":"À PROPOS DU FONDATEUR ",
-    "T13":"Le cabinet d'avocat a été fondé par Me Aboubacar Sidiki Coulibaly. Un avocat hautement déterminé, confiant et dévoué, avec un grand sens des valeurs, une passion pour trouver des solutions juridiques aux problèmes des clients. Me Coulibaly offre un service personnalisé en fonction des besoins de chaque client, et ce, avec des honoraires justes et raisonnables. Il intervient en litige civil et commercial, en droit d'immobilier, en droit des affaires et des transactions transfrontalières ainsi qu'en droit de la familille",
+    "T13":"Le cabinet d'avocat a été fondé par Me Aboubacar Sidiki Coulibaly. Un avocat hautement déterminé, confiant et dévoué, avec un grand sens des valeurs, une passion pour trouver des solutions juridiques aux problèmes des clients. Me Coulibaly offre un service personnalisé en fonction des besoins de chaque client, et ce, avec des honoraires justes et raisonnables. Il intervient en litige civil et commercial, en droit d'immobilier, en droit des affaires et des transactions transfrontalières ainsi qu'en droit de la famille",
     "T14":"Me Coulibaly a effectué ses formations juridiques et d'avocat à l'École du Barreau du Québec, l'Université de Montréal, l'Université de Caroline du Nord (USA), et à la Faculté des Sciences Juridiques (Mali).",
     "T15":"Passionné de l'informatique, Me Coulibaly est aussi titulaire de certificat professionnel en science de l'informatique à l'université Harvard.",
     "T16":"POURQUOI CHOISIR ASC AVOCAT ?",
-    "T17":"Nous représentons chaque client selon ses besoins juridiques spécifiques avec détermination et zèle. En outre, nos clients benecient de nos compétences et expériences pour la résolution de leurs dossiers, et ce, avec des honoraires justes et raisonnables.",
+    "T17":"Nous représentons chaque client selon ses besoins juridiques spécifiques avec détermination et zèle. En outre, nos clients bénéficient de nos compétences et expériences pour la résolution de leurs dossiers, et ce, avec des honoraires justes et raisonnables.",
     "T18":"Consulter nos services juridiques",
     "T19":"Solutions juridiques simples, convenables et adaptées au besoin de chaque client.",
     "T20":"Services disponibles",
@@ -69,7 +69,7 @@ var arrLang = {
 
     "T1": "Montréal - Laval - Longueuil",
     "T2": "LAW FIRM",
-    "T3": "for legal solutions tailored to the needs of each client.",
+    "T3": "For legal solutions tailored to the needs of each client.",
     "T4": " Book an appointment",
     "T5": "Simple legal solutions tailored to each client's needs.",
     "T6": "Member of the Quebec Bar",

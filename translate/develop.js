@@ -2,10 +2,10 @@ var arrLang = {
     "fr": {
 
     // head
-    "TITLE": "LégalQC, services en développement",
-    "KEYWORDS": "Services juridiques en ligne en développement, LegalQC",
+    "TITLE": "ASC AVocat, services en développement",
+    "KEYWORDS": "Services juridiques en ligne en développement, ASC Avocat",
 
-    "DESCRIPTION" : "LegalQC offre exclusivement des services juridiques en ligne avec des tarifs abordables. Nous nous consacrons au développement des services juridiques en ligne.",
+    "DESCRIPTION" : "ASC Avocat offre exclusivement des services juridiques en ligne avec des tarifs abordables. Nous nous consacrons au développement des services juridiques en ligne.",
 
     // body
         // Navigation bar
@@ -29,10 +29,10 @@ var arrLang = {
     "en": {
 
     // head
-    "TITLE": "LegalQC, services in development",
-    "KEYWORDS": "Online legal services in developement, LegalQC",
+    "TITLE": "ASC Lawyer, services in development",
+    "KEYWORDS": "Online legal services in developement, ASC Lawyer",
 
-    "DESCRIPTION": "LegalQC offers exclusively online legal services with affordable rates. We are dedicated to develop online legal services.",
+    "DESCRIPTION": "ASC Lawyer offers exclusively online legal services with affordable rates. We are dedicated to develop online legal services.",
     
 
     // body

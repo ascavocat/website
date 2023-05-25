@@ -20,7 +20,7 @@ var arrLang = {
 
     "T1":"PRISE DE",
     "T2":"RENDEZ-VOUS À ASC AVOCAT",
-    "T3":"un avocat à votre disposition pour vous offrir une expertise de qualité, un service personnalisé et des conseils juridiques adaptés à vos besoins spécifiques.",
+    "T3":"Un avocat à votre disposition pour vous offrir une expertise de qualité, un service personnalisé et des conseils juridiques adaptés à vos besoins spécifiques.",
     "T4":"Consultation en ligne",
 
     
@@ -60,7 +60,7 @@ var arrLang = {
 
     "T1": "BOOK AN",
     "T2": "APPOINTMENT AT ASC AVOCAT",
-    "T3": " a lawyer at your disposal to provide you with quality expertise, personalized service and legal advice tailored to your specific needs.",
+    "T3": " A lawyer at your disposal to provide you with quality expertise, personalized service and legal advice tailored to your specific needs.",
     "T4": " Online consultation",
 
     "T5": "PERSONALIZED ASSISTANCE FOR YOUR LEGAL NEEDS",
