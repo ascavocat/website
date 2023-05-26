@@ -309,7 +309,7 @@ var arrLang = {
 
     "T34": "Latent defect litigation can be long and costly for all parties involved. That's why you need a knowledgeable real estate attorney to defend your latent defect rights. ASC Lawyers is known for its dedication as a litigator to obtain successful results.",
     "T35": "If you are looking for a real estate lawyer in latent defect matters, please feel free to contact us today by phone or schedule a consultation. We are ready to help you with your legal situation.",
-    "T36": "Construction Litigation and Mortgage Remedies",
+    "T36": "Construction disputes and hypothecary recourses",
 
     "T37": "Our law firm can intervene to advise and represent you in construction litigation or hypothecary remedies. Whether you are a general contractor, a subcontractor, an architect, a client, a mortgage lender or a debtor, we can represent you effectively to assert your rights in a construction dispute. With our expertise in construction law and hypothecary remedies, we are able to effectively manage your affairs and find solutions tailored to your needs. We intervene in various situations such as:",
     "T37-1": "Termination of a construction contract",

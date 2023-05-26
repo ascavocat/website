@@ -100,10 +100,10 @@ var arrLang = {
     "en": {
 
     // head
-    "TITLE": "ASC Avocat - Law firm Montreal, Laval and Longueuil",
-"KEYWORDS": "lawyer services, law firm, lawyer Montreal, lawyer Laval, lawyer Longueuil, civil lawyer, commercial lawyer, business lawyer, corporate lawyer, family lawyer",
+    "TITLE": " business law firm",
+    "KEYWORDS": "business lawyer,  business law firm, business lawyer Montreal, business lawyer Laval, business lawyer Longueuil, commercial lawyer, corporate law lawyer",
 
-    "DESCRIPTION": "ASC Avocat offers lawyer services tailored to the needs of each client in civil law, business law, real estate law, and family law. In addition, our law firm offers online legal services through innovative technologies at affordable rates for everyone.",
+    "DESCRIPTION": "ASC Busines Lawyer  offers business legal solutions to its clients as well as vigorous representation to protect their rights. In addition, the business law firm provides strategic advice to clients for successful business.",
     
 
     // body

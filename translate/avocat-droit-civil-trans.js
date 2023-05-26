@@ -2,10 +2,10 @@ var arrLang = {
     "fr": {
 
     // head
-    "TITLE": "Cabinet d'avocat en droit des affaires",
-    "KEYWORDS": "avocat droit des affaires, vocat spécialisé en droit des affaires, cabinet d'avocat droit des affaires, avocat droit des affaires Montréal, avocat droit des affaires Laval, avocat droit des affaires Longueuil, avocat droit commercial, avocat droit, avocat droit corporatif",
+    "TITLE": "Cabinet d'avocat en droit civil",
+    "KEYWORDS": "avocat droit civil, avocat spécialisé en droit civil, cabinet d'avocat droit civil, avocat droit civil Montréal, avocat droit civil Laval, avocat droit civil Longueuil, avocat en litige, avocat litige civil",
 
-    "DESCRIPTION": "ASC Avocat droit des affaires offre des solutions juridiques d'affaires à ses clients ainsi qu'une représentation vigoureuse pour protéger les droits de ces derniers. En outre, le cabinet d'avocat spécialisé en droit des affaires donne des conseils stratégiques à ses clients pour le succès dans les affaires.",
+    "DESCRIPTION": "ASC Avocat droit civil offre des solutions juridiques adaptées aux besoins de ses clients ainsi qu'une représentation vigoureuse pour protéger les droits de ces derniers. En outre, le cabinet d'avocat spécialisé en droit civil donne des conseils stratégiques à ses clients pour un meilleur resultat.",
     
 
     // body
@@ -58,10 +58,10 @@ var arrLang = {
     "en": {
 
     // head
-    "TITLE": "ASC Avocat - Law firm Montreal, Laval and Longueuil",
-"KEYWORDS": "lawyer services, law firm, lawyer Montreal, lawyer Laval, lawyer Longueuil, civil lawyer, commercial lawyer, business lawyer, corporate lawyer, family lawyer",
+    "TITLE": "Civil law firm",
+    "KEYWORDS": "civil lawyer, civil law specialist, civil  law firm, civil lawyer Montreal, civil lawyer Laval, civil lawyer Longueuil, litigation lawyer, civil litigation lawyer",
 
-    "DESCRIPTION": "ASC Avocat offers lawyer services tailored to the needs of each client in civil law, business law, real estate law, and family law. In addition, our law firm offers online legal services through innovative technologies at affordable rates for everyone.",
+    "DESCRIPTION": "ASC Civil Lawyer offers legal solutions tailored to the needs of its clients, as well as vigorous representation to protect their rights. In addition, the civil law firm provides strategic advice to its clients for better results.",
     
 
     // body
