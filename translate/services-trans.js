@@ -104,13 +104,13 @@ var arrLang = {
     "T27-1":"Responsabilité civile en demande ou en défense",
     "T27-2":"Saisie avant jugement",
     "T27-3":"Opposition à la saisie",
-    "T27-4":"Protection du consommateur<",
+    "T27-4":"Protection du consommateur",
     "T27-5":"Diffamation",
     "T27-6":"Litige en matière de succession",
     "T27-7":"Recouvrement de créances",
     "T27-8":"litige contractuel",
     
-    "T28":"Les litiges civils peuvent s'avérer longs et coûteux pour toutes les parties engagées. C'est pourquoi il est essentiel d'avoir à vos côtés un avocat en droit civil pour défendre efficacement vos droits en tribunal.",
+    "T28":"Les litiges civils peuvent s'avérer longs et coûteux pour toutes les parties engagées. C'est pourquoi il est essentiel d'avoir à vos côtés un avocat en droit civil pour défendre efficacement vos droits au tribunal.",
     "T29":"Si vous êtes à la recherche d'un avocat spécialisé en droit civil, n'hésitez pas à nous contacter dès aujourd'hui par téléphone ou à planifier une consultation. Nous sommes prêts à vous aider avec votre situation juridique.",
 
     "T30":"DROIT IMMOBILIER",
