@@ -27,7 +27,7 @@ var arrLang = {
     "T4":"Des solutions juridiques en ligne avec l'accompagnement et les conseils d'un avocat." ,
     "T5":"Comment ça marche" ,
     "T6":"Divers services sont disponibles exclusivement en ligne avec des tarifs raisonnables." ,
-    "T7":"LégalQC pour des solutions juridiques simples et abordables en ligne" ,
+    "T7":"ASC Avocat pour des solutions juridiques simples et abordables en ligne" ,
     "T8":"Membre du Barreau du Québec" ,
     "T9":"Membre de l'Association du Barreau Canadien" ,
     "T10":"Services juridiques à la fine pointe de la technologie" ,
