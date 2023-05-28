@@ -26,6 +26,8 @@ var arrLang = {
     "T3":"Droit de la famille" ,
     "T4":"Des solutions juridiques en ligne avec l'accompagnement et les conseils d'un avocat." ,
     "T5":"Comment ça marche" ,
+    "T5-1":"Demander un rappel téléphonique" ,
+
     "T6":"Divers services sont disponibles exclusivement en ligne avec des tarifs raisonnables." ,
     "T7":"ASC Avocat pour des solutions juridiques simples et abordables en ligne" ,
     "T8":"Membre du Barreau du Québec" ,
@@ -50,7 +52,7 @@ var arrLang = {
 
     "TXT1": "Service légal complet",
     "TXT2": "1 h de consultation incluse",
-    "TXT3": "Frais du tribunal inclus",
+    "TXT3": "Frais inclus",
     "TXT4": "Aucun frais caché",
     "TXT5": "Service 100% en ligne",
     "TXT6": "Aucun déplacement nécessaire, tout est en ligne",
@@ -96,6 +98,7 @@ var arrLang = {
     "T3": "Family Law" ,
     "T4": "Online legal solutions with the accompaniment and advice of a lawyer." ,
     "T5": "How it works" ,
+    "T5-1":"Request a call back" ,
     "T6": "Various services are available exclusively online with a lawyer at affordable rates." ,
     "T7": "LégalQC for simple and affordable legal solutions online" ,
     "T8": "Member of the Quebec Bar" ,
@@ -120,7 +123,7 @@ var arrLang = {
     
     "TXT1": "Full legal service",
     "TXT2": "1 hour consultation included",
-    "TXT3": "Court fees included",
+    "TXT3": "Fees included",
     "TXT4": "No hidden fees",
     "TXT5": "100% online service",
     "TXT6": "No trip required, everything is online",
