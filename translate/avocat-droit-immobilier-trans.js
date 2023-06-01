@@ -161,7 +161,11 @@ var arrLang = {
     }
   };
 
+// Function to choose iframe based on language
 
+function go(url){
+  document.getElementById('JotFormIFrame-231485056021246').src= url;
+}
  
 // The default language is English
 var lang = "fr";
@@ -175,12 +179,15 @@ if(usrLang) {
 
 }
 
-// handling request for  appropriate form based on user language
+// handling request for appropriate form based on user language
+if (lang=== "fr"){
+  go('https://form.jotform.com/231485056021246?language=fr-CA&dropdown=hidden') ;
 
+} else if (lang=== "en"){
+  go('https://form.jotform.com/231485056021246?language=en-CA&dropdown=hidden') ;
+}  
 
-        // *******code here*********
-
-    // end here - request handling 
+// end of handling above request
 
 
 console.log(lang);
@@ -197,11 +204,15 @@ console.log(lang);
    $(".translate").click(function() {
      var lang = $(this).attr("id");
 
-    //  // handling request for proposal form based on selected language
+      // handling request for appropriate form based on user language
+  if (lang=== "fr"){
+    go('https://form.jotform.com/231485056021246?language=fr-CA&dropdown=hidden') ;
 
-        // *******code here*********
+  } else if (lang=== "en"){
+    go('https://form.jotform.com/231485056021246?language=en-CA&dropdown=hidden') ;
+  }  
 
-     // end here - handling selected language
+  // end of handling above request
      
 
 
