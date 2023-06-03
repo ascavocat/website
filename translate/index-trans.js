@@ -2,10 +2,10 @@ var arrLang = {
     "fr": {
 
     // head
-    "TITLE": "ASC Avocat — Cabinet d'avocat Montréal, Laval et Longueuil",
+    "TITLE": "ASC Avocat — Cabinet légal Montréal, Laval et Longueuil",
     "KEYWORDS": "avocat, cabinet d'avocat, avocat Montréal, avocat Laval, avocat Longueuil, avocat droit civil, avocat droit commercial, avocat droit des affaires, avocat droit corporatif, avocat droit de la famille",
 
-    "DESCRIPTION": "ASC Avocat offre des services juridiques adaptés selon les besoins de chaque client en droit civil, droit des affaires, droit immobilier, et en droit de la famille. En outre, notre cabinet d'avocat offre des services juridiques en ligne grâces à des technologies innovantes à des tarifs abordables à la portée de tous.",
+    "DESCRIPTION": "ASC Avocat offre des services juridiques adaptés selon les besoins de chaque client dans le domaine des affaires, immobilier , civil, et familial.",
     
 
     // body
