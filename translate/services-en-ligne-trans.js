@@ -15,6 +15,8 @@ var arrLang = {
     "SERVICES": "Services",
     "CONTACT": "Contact",
     "CONSULTATION": "Consultation en ligne",
+    "INFO-J": "Info juridique",
+
         // Footer
     "RIGHTS": "Services conçus et mis en oeuvre par ASC Avocat - Tous droits réservés",
 
@@ -67,6 +69,8 @@ var arrLang = {
     "SERVICES": "Services",
     "CONTACT": "Contact",
     "CONSULTATION": "Online consultation",
+    "INFO-J": "Legal info",
+
         // Footer
     "RIGHTS": "Services designed and implemented by ASC Avocat - All rights reserved",
 
@@ -97,7 +101,11 @@ var arrLang = {
     }
   };
 
+// Function to change url
 
+function goto(url){
+  document.getElementById('info-sligne').href= url;
+}
  
 // The default language is English
 var lang = "fr";
@@ -111,12 +119,15 @@ if(usrLang) {
 
 }
 
-// handling request for  appropriate form based on user language
+// handling request for appropriate url
+if (lang=== "fr"){
+  goto('https://info-juridique.asc-avocat.ca/') ;
 
+} else if (lang=== "en"){
+  goto('https://info-legal.asc-avocat.ca/') ;
+}  
 
-        // *******code here*********
-
-    // end here - request handling 
+// end of handling above request
 
 
 console.log(lang);
@@ -133,11 +144,15 @@ console.log(lang);
    $(".translate").click(function() {
      var lang = $(this).attr("id");
 
-    //  // handling request for proposal form based on selected language
+    // handling request for appropriate url
+    if (lang=== "fr"){
+      goto('https://info-juridique.asc-avocat.ca/') ;
 
-        // *******code here*********
+    } else if (lang=== "en"){
+      goto('https://info-legal.asc-avocat.ca/') ;
+    }  
 
-     // end here - handling selected language
+// end of handling above request
      
 
 

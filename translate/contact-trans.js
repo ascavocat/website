@@ -13,7 +13,11 @@ var arrLang = {
     "HOME": "Accueil",
     "CABINET": "Notre cabinet",
     "CONTACT": "Contact",
+    "SERVICES": "Services",
+
     "CONSULTATION": "Consultation en ligne",
+    "INFO-J": "Info juridique",
+
         // Footer
     "RIGHTS": "Services conçus et mis en oeuvre par ASC Avocat - Tous droits réservés",
       
@@ -36,13 +40,22 @@ var arrLang = {
     "HOME": "Home",
     "CABINET": "Our law firm",
     "CONTACT": "Contact",
+    "SERVICES": "Services",
     "CONSULTATION": "Online Consultation",
+    "INFO-J": "Info juridique",
+
         // Footer
     "RIGHTS": "Services designed and implemented by ASC Lawyer - All rights reserved.",
 
  
     }
   };
+
+// Function to change url
+
+function goto(url){
+  document.getElementById('info-contact').href= url;
+}
 
 // Function to choose iframe based on language
 
@@ -65,9 +78,11 @@ if(usrLang) {
 // handling request for appropriate form based on user language
 if (lang=== "fr"){
   go('https://form.jotform.com/MeSidiki/legalqc-contact-form?language=fr-CA&dropdown=hidden') ;
+  goto('https://info-juridique.asc-avocat.ca/') ;
 
 } else if (lang=== "en"){
   go('https://form.jotform.com/MeSidiki/legalqc-contact-form?language=en-CA&dropdown=hidden') ;
+  goto('https://info-legal.asc-avocat.ca/') ;
 }  
 
 // end of handling above request
@@ -89,12 +104,14 @@ console.log(lang);
       // handling request for appropriate form based on user language
       if (lang=== "fr"){
         go('https://form.jotform.com/MeSidiki/legalqc-contact-form?language=fr-CA&dropdown=hidden') ;
+        goto('https://info-juridique.asc-avocat.ca/') ;
 
       } else if (lang=== "en"){
         go('https://form.jotform.com/MeSidiki/legalqc-contact-form?language=en-CA&dropdown=hidden') ;
+        goto('https://info-legal.asc-avocat.ca/') ;
       }  
 
-      // end of handling above reques
+      // end of handling above request
      
 
 

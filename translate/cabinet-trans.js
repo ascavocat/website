@@ -14,6 +14,7 @@ var arrLang = {
     "CABINET": "Notre cabinet",
     "SERVICES": "Services",
     "CONTACT": "Contact",
+    "INFO-J": "Info juridique",
     "CONSULTATION": "Consultation en ligne",
         // Footer
     "RIGHTS": "Services conçus et mis en oeuvre par ASC Avocat - Tous droits réservés",
@@ -63,6 +64,7 @@ var arrLang = {
     "CABINET": "Our law firm",
     "SERVICES": "Services",
     "CONTACT": "Contact",
+    "INFO-J": "Legal info",
     "CONSULTATION": "Online consultation",
         // Footer
     "RIGHTS": "Services designed and implemented by ASC Avocat - All rights reserved",
@@ -94,7 +96,11 @@ var arrLang = {
     }
   };
 
+ // Function to change url
 
+ function goto(url){
+  document.getElementById('info-cabinet').href= url;
+}
  
 // The default language is English
 var lang = "fr";
@@ -108,12 +114,15 @@ if(usrLang) {
 
 }
 
-// handling request for  appropriate form based on user language
+// handling request for appropriate url
+if (lang=== "fr"){
+  goto('https://info-juridique.asc-avocat.ca/') ;
 
+} else if (lang=== "en"){
+  goto('https://info-legal.asc-avocat.ca/') ;
+}  
 
-        // *******code here*********
-
-    // end here - request handling 
+// end of handling above request
 
 
 console.log(lang);
@@ -130,11 +139,15 @@ console.log(lang);
    $(".translate").click(function() {
      var lang = $(this).attr("id");
 
-    //  // handling request for proposal form based on selected language
+// handling request for appropriate url
+if (lang=== "fr"){
+  goto('https://info-juridique.asc-avocat.ca/') ;
 
-        // *******code here*********
+} else if (lang=== "en"){
+  goto('https://info-legal.asc-avocat.ca/') ;
+}  
 
-     // end here - handling selected language
+// end of handling above request
      
 
 

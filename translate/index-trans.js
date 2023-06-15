@@ -15,6 +15,8 @@ var arrLang = {
     "SERVICES": "Services",
     "CONTACT": "Contact",
     "CONSULTATION": "Consultation en ligne",
+    "INFO-J": "Info juridique",
+
         // Footer
     "RIGHTS": "Services conçus et mis en oeuvre par ASC Avocat - Tous droits réservés",
 
@@ -69,6 +71,7 @@ var arrLang = {
     "SERVICES": "Services",
     "CONTACT": "Contact",
     "CONSULTATION": "Online consultation",
+    "INFO-J": "Legal info",
         // Footer
     "RIGHTS": "Services designed and implemented by ASC Avocat - All rights reserved",
 
@@ -79,9 +82,9 @@ var arrLang = {
     "T5": " LAWYER SERVICES AT COMPETITIVE PRICES",
     "T6": "ASC Avocat is dedicated to providing legal solutions tailored to each client's needs at competitive prices. Our law firm also offers 100% online legal services with affordable rates for everyone. We stand out for our innovative approach to legal services and zealous representation of our clients. ",
     "T6-1": "PRACTICE IN METROPOLITAN AREAS",
-    "T6-2": "Our law firm is very proud to serve the metropolitan areas of Montreal, Laval and Longueuil. We represent our clients with determination and zeal before the relevant judicial authorities in order to obtain a favorable outcome in their case",
+    "T6-2": "Our law firm is very proud to serve the metropolitan areas of Montreal, Laval and Longueuil. We represent our clients with determination and zeal before the relevant judicial authorities in order to obtain a favorable outcome in their case.",
     "T6-3": " CROSS BORDER TRANSACTION EXPERTISE",
-    "T6-4": "ASC Avocat also has a solid expertise in cross-border transactions. We are available to advise and represent Canadian companies in their transactions in the OHADA area or African companies for their legal needs in North America",
+    "T6-4": "ASC Avocat also has a solid expertise in cross-border transactions. We are available to advise and represent Canadian companies in their transactions in the OHADA area or African companies for their legal needs in North America.",
     "T6-5": "OUR AREAS OF EXPERTISE",
     "T7": "Business Law",
     "DETAILS": " Check the details",
@@ -102,7 +105,11 @@ var arrLang = {
   };
 
 
- 
+ // Function to change url
+
+function goto(url){
+  document.getElementById('info-index').href= url;
+}
 // The default language is English
 var lang = "fr";
 // Check for localStorage support
@@ -115,12 +122,15 @@ if(usrLang) {
 
 }
 
-// handling request for  appropriate form based on user language
+// handling request for appropriate url
+if (lang=== "fr"){
+  goto('https://info-juridique.asc-avocat.ca/') ;
 
+} else if (lang=== "en"){
+  goto('https://info-legal.asc-avocat.ca/') ;
+}  
 
-        // *******code here*********
-
-    // end here - request handling 
+// end of handling above request
 
 
 console.log(lang);
@@ -137,11 +147,15 @@ console.log(lang);
    $(".translate").click(function() {
      var lang = $(this).attr("id");
 
-    //  // handling request for proposal form based on selected language
+    // handling request for appropriate url
+    if (lang=== "fr"){
+      goto('https://info-juridique.asc-avocat.ca/') ;
 
-        // *******code here*********
+    } else if (lang=== "en"){
+      goto('https://info-legal.asc-avocat.ca/') ;
+    }  
 
-     // end here - handling selected language
+// end of handling above request
      
 
 

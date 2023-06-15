@@ -1,4 +1,13 @@
 User-agent: *
 Allow: /
+Disallow: /online-droit-famille/
+Disallow: /online-petites-creances/
+Disallow: /pay.html
+Disallow: /develop.html
+Disallow: /conditions.html
+
+
+
+
 
 Sitemap: http://www.asc-avocat.ca/sitemap.xml

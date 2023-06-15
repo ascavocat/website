@@ -15,6 +15,7 @@ var arrLang = {
     "CABINET": "Notre Cabinet",
 
     "INFO-J": "Info juridique",
+
     "CONTACT": "Contact",
     "CONSULTATION": "Consultation en ligne",
         // Footer
@@ -24,7 +25,7 @@ var arrLang = {
     "T1":"SERVICES JURIDIQUES EN" ,
     "T2":"LIGNE" ,
     "T3":"Droit de la famille" ,
-    "T4":"Des solutions juridiques en ligne avec l'accompagnement et les conseils d'un avocat." ,
+    "T4":"Des solutions juridiques en ligne avec l'accompagnement et les conseils d'un avocat à des tarifs abordables." ,
     "T5":"Comment ça marche" ,
     "T5-1":"Demander un rappel téléphonique" ,
 
@@ -96,11 +97,11 @@ var arrLang = {
     "T1": "LEGAL SERVICES" ,
     "T2": " ONLINE" ,
     "T3": "Family Law" ,
-    "T4": "Online legal solutions with the accompaniment and advice of a lawyer." ,
+    "T4": "Online legal solutions with the accompaniment and advice of a lawyer at affordable rates." ,
     "T5": "How it works" ,
     "T5-1":"Request a call back" ,
     "T6": "Various services are available exclusively online with a lawyer at affordable rates." ,
-    "T7": "LégalQC for simple and affordable legal solutions online" ,
+    "T7": "ASC Avocat for simple and affordable legal solutions online" ,
     "T8": "Member of the Quebec Bar" ,
     "T9": "Member of the Canadian Bar Association" ,
     "T10": "Member of the Canadian Bar Association" ,
@@ -136,7 +137,11 @@ var arrLang = {
   };
 
 
- 
+// Function to change url
+
+function goto(url){
+  document.getElementById('info-famille').href= url;
+}
 // Function to choose iframe based on language
 
 function go(url){
@@ -155,15 +160,19 @@ if(usrLang) {
 
 }
 
-// handling request for appropriate form based on user language
+// handling request for appropriate form and url based on user language
 if (lang=== "fr"){
   go('https://form.jotform.com/231485056021246?language=fr-CA&dropdown=hidden') ;
+  goto('https://info-juridique.asc-avocat.ca/') ;
 
 } else if (lang=== "en"){
   go('https://form.jotform.com/231485056021246?language=en-CA&dropdown=hidden') ;
+  goto('https://info-legal.asc-avocat.ca/') ;
 }  
 
 // end of handling above request
+
+
 
 console.log(lang);
 
@@ -179,15 +188,19 @@ console.log(lang);
    $(".translate").click(function() {
      var lang = $(this).attr("id");
 
-    // handling request for appropriate form based on user language
+    // handling request for appropriate form and url based on user language
     if (lang=== "fr"){
       go('https://form.jotform.com/231485056021246?language=fr-CA&dropdown=hidden') ;
+      goto('https://info-juridique.asc-avocat.ca/') ;
 
     } else if (lang=== "en"){
       go('https://form.jotform.com/231485056021246?language=en-CA&dropdown=hidden') ;
+      goto('https://info-legal.asc-avocat.ca/') ;
     }  
 
     // end of handling above request
+
+    
         
 
 

@@ -15,6 +15,8 @@ var arrLang = {
     "SERVICES": "Services",
     "CONTACT": "Contact",
     "CONSULTATION": "Consultation en ligne",
+    "INFO-J": "Info juridique",
+
         // Footer
     "RIGHTS": "Services conçus et mis en oeuvre par ASC Avocat - Tous droits réservés",
 
@@ -55,6 +57,8 @@ var arrLang = {
     "SERVICES": "Services",
     "CONTACT": "Contact",
     "CONSULTATION": "Online consultation",
+    "INFO-J": "Legal info",
+
         // Footer
     "RIGHTS": "Services designed and implemented by ASC Avocat - All rights reserved",
 
@@ -72,7 +76,12 @@ var arrLang = {
     }
   };
 
-// Function to choose iframe based on language
+ // Function to change url
+
+ function goto(url){
+  document.getElementById('info-rdv').href= url;
+}
+  // Function to choose iframe based on language
 
 function go(url){
   document.getElementById('calendar').src= url;
@@ -93,9 +102,11 @@ if(usrLang) {
 /// handling request for appropriate form based on user language
 if (lang=== "fr"){
   go('https://outlook.office365.com/owa/calendar/ASCAvocat@asc-avocat.ca/bookings/') ;
+  goto('https://info-juridique.asc-avocat.ca/')
 
 } else if (lang=== "en"){
   go('https://outlook.office365.com/owa/calendar/ASCAvocatCopy@asc-avocat.ca/bookings/') ;
+  goto('https://info-legal.asc-avocat.ca/') 
 }  
 
 // end of handling above request
@@ -115,15 +126,17 @@ console.log(lang);
    $(".translate").click(function() {
      var lang = $(this).attr("id");
 
-// handling request for appropriate form based on user language
+/// handling request for appropriate form based on user language
 if (lang=== "fr"){
   go('https://outlook.office365.com/owa/calendar/ASCAvocat@asc-avocat.ca/bookings/') ;
+  goto('https://info-juridique.asc-avocat.ca/')
 
 } else if (lang=== "en"){
   go('https://outlook.office365.com/owa/calendar/ASCAvocatCopy@asc-avocat.ca/bookings/') ;
+  goto('https://info-legal.asc-avocat.ca/') 
 }  
 
-// end of handling above reques
+// end of handling above request
      
 
 
