@@ -2,10 +2,10 @@ var arrLang = {
     "fr": {
 
     // head
-    "TITLE": "Cabinet d'avocat en droit des assuances",
-    "KEYWORDS": "avocat spécialisé en droit des assurance, avocat en assurance, cabinet d'avocat assurance, avocat assurance Montréal, avocat assurance Laval, avocat assurance Longueuil, avocat en litige d'assurance, avocat litige en assurance, avocat en litige d'assurance commerciale",
+    "TITLE": "Cabinet d'avocat en droit affaires internationales",
+    "KEYWORDS": "avocat en droit des affaires internationales, avocat en affaires internationales, cabinet d'avocat en droit des affaires internationales, avocat affaires internationales Montréal, avocat affaires internationales Laval, avocat affaires internationales  Longueuil, avocat en litige international, avocat international en litige commerciale",
 
-    "DESCRIPTION": "Vous recherchez un avocat spécialisé en recouvrement? Faites appel aux services de ASC Avocat pour vous aider à récupérer vos créances impayées. Contactez-nous dès maintenant pour une assistance juridique efficace.",
+    "DESCRIPTION": "Besoin d'un avocat en droit des affaires internationales ? Faites confiance à notre cabinet spécialisé pour vous accompagner dans toutes vos problématiques juridiques liées à l'international. Contactez-nous dès maintenant pour une consultation personnalisée.",
     
 
     // body
@@ -73,11 +73,11 @@ var arrLang = {
     "en": {
 
     // head
-    "TITLE": "Law firm specializing in insurance law",
+    "TITLE": "International Business Law Firm",
 
-    "KEYWORDS": " lawyer specialized in insurance law, insurance lawyer, insurance law firm, insurance lawyer Montreal, insurance lawyer Laval, insurance lawyer Longueuil, insurance litigation lawyer, insurance litigation lawyer, commercial insurance litigation lawyer ",
+    "KEYWORDS": "international business lawyer, international business lawyer, international business law firm, international business lawyer Montreal, international business lawyer Laval, international business lawyer Longueuil, international litigation lawyer, international commercial litigation lawyer",
 
-    "DESCRIPTION": "Looking for a debt collection lawyer? Let ASC Avocat help you recover your unpaid debts. Contact us now for effective legal representation.",
+    "DESCRIPTION": "Need an international business lawyer? Trust our specialized firm to assist you with all your international legal issues. Contact us now for a personalized consultation.",
     
 
     // body
@@ -117,7 +117,7 @@ var arrLang = {
     "T27-6": "The acquisition and sale of businesses on an international scale",
     
     "T28": "Our approach is based on understanding your business objectives and finding legal solutions tailored to your needs. We work closely with you to develop a sound legal strategy that promotes your success in international markets",
-    
+
     "T29": "With our global network of legal partners and our in-depth knowledge of international laws and regulations, we are able to offer you effective legal support in many countries and jurisdictions.",
 
     "T30": "Our commitment to our customers is reflected in our unparalleled responsiveness and availability. We are here to answer your questions, keep you informed about the progress of your case and offer you expert advice throughout your international business.",

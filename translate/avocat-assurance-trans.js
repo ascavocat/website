@@ -5,7 +5,7 @@ var arrLang = {
     "TITLE": "Cabinet d'avocat en droit des assuances",
     "KEYWORDS": "avocat spécialisé en droit des assurance, avocat en assurance, cabinet d'avocat assurance, avocat assurance Montréal, avocat assurance Laval, avocat assurance Longueuil, avocat en litige d'assurance, avocat litige en assurance, avocat en litige d'assurance commerciale",
 
-    "DESCRIPTION": "Vous recherchez un avocat spécialisé en recouvrement? Faites appel aux services de ASC Avocat pour vous aider à récupérer vos créances impayées. Contactez-nous dès maintenant pour une assistance juridique efficace.",
+    "DESCRIPTION": "Recherchez-vous un avocat spécialisé en droit des assurances ? Faites appel à nos services pour bénéficier de conseils et d'une representatition légale personnalisée dans tous les domaines du droit des assurances. ",
     
 
     // body
@@ -69,7 +69,7 @@ var arrLang = {
 
     "KEYWORDS": " lawyer specialized in insurance law, insurance lawyer, insurance law firm, insurance lawyer Montreal, insurance lawyer Laval, insurance lawyer Longueuil, insurance litigation lawyer, insurance litigation lawyer, commercial insurance litigation lawyer ",
 
-    "DESCRIPTION": "Looking for a debt collection lawyer? Let ASC Avocat help you recover your unpaid debts. Contact us now for effective legal representation.",
+    "DESCRIPTION": "Are you looking for a lawyer specialized in insurance law? Call on us for advice and personalized legal representation in all areas of insurance law.",
     
 
     // body
