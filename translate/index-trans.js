@@ -2,10 +2,10 @@ var arrLang = {
     "fr": {
 
     // head
-    "TITLE": "ASC Avocat — Cabinet légal Montréal, Laval et Longueuil",
-    "KEYWORDS": "avocat, cabinet d'avocat, avocat Montréal, avocat Laval, avocat Longueuil, avocat droit civil, avocat droit commercial, avocat droit des affaires, avocat droit corporatif, avocat droit de la famille",
+    "TITLE": "ASC Avocat — Cabinet juridique Montréal, Laval et Longueuil",
+    "KEYWORDS": "cabinet d'avocat, avocat, avocat Montréal, avocat Laval, avocat Longueuil, avocat droit civil, avocat droit commercial, avocat droit des affaires, avocat droit corporatif, avocat droit de la famille",
 
-    "DESCRIPTION": "ASC Avocat offre des services juridiques adaptés selon les besoins de chaque client dans le domaine des affaires, immobilier , civil, et familial.",
+    "DESCRIPTION": "Recherchez-vous un cabinet d'avocat compétent et expérimenté ? ASC Avocat vous offre des services juridiques de haute qualité pour résoudre vos problèmes légaux. Contactez-nous dès aujourd'hui pour une consultation.",
     
 
     // body
@@ -59,9 +59,9 @@ var arrLang = {
 
     // head
     "TITLE": "ASC Avocat - Law firm Montreal, Laval and Longueuil",
-"KEYWORDS": "lawyer, law firm, lawyer Montreal, lawyer Laval, lawyer Longueuil, civil lawyer, commercial lawyer, business lawyer, corporate lawyer, family lawyer",
+"KEYWORDS": " law firm, lawyer, lawyer Montreal, lawyer Laval, lawyer Longueuil, civil lawyer, commercial lawyer, business lawyer, corporate lawyer, family lawyer",
 
-    "DESCRIPTION": "ASC Avocat offers legal services tailored to the needs of each client in civil law, business law, real estate law, and family law. In addition, our law firm offers online legal services through innovative technologies at affordable rates for everyone.",
+    "DESCRIPTION": " Are you looking for a competent and experienced law firm? ASC Avocat offers high-quality legal services to solve your legal problems. Contact us today for a consultation. ",
     
 
     // body
