@@ -5,7 +5,7 @@ var arrLang = {
     "TITLE": "Cabinet d'avocat en droit de la famille",
     "KEYWORDS": "avocat droit de la famille, avocat spécialisé en droit de la famille, cabinet d'avocat droit de la fmaille, avocat droit de la famille Montréal, avocat droit de la famille Laval, avocat ddroit de la famille Longueuil, avocat divorce, avocat séparation",
 
-    "DESCRIPTION": "ASC Avocat droit de la famille offre des solutions juridiques adaptées aux besoins de ses clients ainsi qu'une représentation vigoureuse pour protéger les droits de ces derniers. En outre, le cabinet d'avocat spécialisé en droit de la famille donne des conseils stratégiques à ses clients afin d'obtenir les meilleurs resultats .",
+    "DESCRIPTION": "Si vous avez besoin d'un avocat spécialisé en droit de la famille, nous sommes là pour vous aider. ASC Avocat peut vous conseiller et vous représenter dans toutes les questions liées au divorce, à la garde des enfants, à la pension alimentaire, partage des biens, et à d'autres aspects du droit de la famille. Faites confiance à notre cabinet d'avocat pour vous guider tout au long du processus juridique et pour défendre vos droits.",
     
 
     // body
@@ -59,7 +59,7 @@ var arrLang = {
     "TITLE": " Family Law  Firm",
     "KEYWORDS": "family lawyer, family attorney, family law firm, family  lawyer Montreal, family  lawyer Laval, family  lawyer Longueuil, divorce lawyer, separation lawyer",
 
-    "DESCRIPTION": "ASC Family Lawyer offers legal solutions tailored to the needs of its clients, as well as vigorous representation to protect their rights. In addition, the family law firm provides strategic advice to its clients to achieve the best results .",
+    "DESCRIPTION": "If you need a family lawyer, we're here to help. ASC Avocat can advise and represent you in all matters related to divorce, child custody, alimony, property division, and other aspects of family law. Trust our law firm to guide you through the legal process and defend your rights.",
     
 
     // body

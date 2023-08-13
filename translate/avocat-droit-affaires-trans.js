@@ -3,9 +3,9 @@ var arrLang = {
 
     // head
     "TITLE": "Cabinet d'avocat en droit des affaires",
-    "KEYWORDS": "avocat droit des affaires, vocat spécialisé en droit des affaires, cabinet d'avocat droit des affaires, avocat droit des affaires Montréal, avocat droit des affaires Laval, avocat droit des affaires Longueuil, avocat droit commercial, avocat droit, avocat droit corporatif",
+    "KEYWORDS": "avocat en droit des affaires, avocat spécialisé en droit des affaires, cabinet d'avocat droit des affaires, avocat droit des affaires Montréal, avocat droit des affaires Laval, avocat droit des affaires Longueuil, avocat droit commercial, avocat droit, avocat droit corporatif",
 
-    "DESCRIPTION": "ASC Avocat droit des affaires offre des solutions juridiques d'affaires à ses clients ainsi qu'une représentation vigoureuse pour protéger les droits de ces derniers. En outre, le cabinet d'avocat spécialisé en droit des affaires donne des conseils stratégiques à ses clients pour le succès dans les affaires.",
+    "DESCRIPTION": "Recherchez-vous un avocat en droit des affaires? Faites appel à ASC Avocat, un cabinet d'avocat spécialisé en droit des affaires. Nous offrons des services juridiques de qualité pour vous conseiller et vous accompagner dans vos affaires. Contactez-nous dès maintenant pour une consultation.",
     
 
     // body
@@ -103,7 +103,7 @@ var arrLang = {
     "TITLE": " business law firm",
     "KEYWORDS": "business lawyer,  business law firm, business lawyer Montreal, business lawyer Laval, business lawyer Longueuil, commercial lawyer, corporate law lawyer",
 
-    "DESCRIPTION": "ASC Busines Lawyer  offers business legal solutions to its clients as well as vigorous representation to protect their rights. In addition, the business law firm provides strategic advice to clients for successful business.",
+    "DESCRIPTION": "Are you looking for a business lawyer? Call on ASC Avocat, a law firm specializing in business law. We offer quality legal services to advise and support you in your business legal issues. Contact us now for a consultation.",
     
 
     // body

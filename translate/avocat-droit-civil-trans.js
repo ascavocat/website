@@ -3,9 +3,9 @@ var arrLang = {
 
     // head
     "TITLE": "Cabinet d'avocat en droit civil",
-    "KEYWORDS": "avocat droit civil, avocat spécialisé en droit civil, cabinet d'avocat droit civil, avocat droit civil Montréal, avocat droit civil Laval, avocat droit civil Longueuil, avocat en litige, avocat litige civil",
+    "KEYWORDS": "avocat en droit civil, avocat spécialisé en droit civil, cabinet d'avocat droit civil, avocat droit civil Montréal, avocat droit civil Laval, avocat droit civil Longueuil, avocat en litige, avocat litige civil",
 
-    "DESCRIPTION": "ASC Avocat droit civil offre des solutions juridiques adaptées aux besoins de ses clients ainsi qu'une représentation vigoureuse pour protéger les droits de ces derniers. En outre, le cabinet d'avocat spécialisé en droit civil donne des conseils stratégiques à ses clients pour un meilleur resultat.",
+    "DESCRIPTION": "Si vous recherchez un avocat en droit civil, nous mettons à votre disposition notre expertise. Nous sommes spécialisés dans les litiges liés aux contrats, aux fautes et aux préjudices dans le domaine civil. Faites appel à nous pour défendre vos droits et obtenir une résolution équitable à votre problème.",
     
 
     // body
@@ -61,7 +61,7 @@ var arrLang = {
     "TITLE": "Civil law firm",
     "KEYWORDS": "civil lawyer, civil law specialist, civil  law firm, civil lawyer Montreal, civil lawyer Laval, civil lawyer Longueuil, litigation lawyer, civil litigation lawyer",
 
-    "DESCRIPTION": "ASC Civil Lawyer offers legal solutions tailored to the needs of its clients, as well as vigorous representation to protect their rights. In addition, the civil law firm provides strategic advice to its clients for better results.",
+    "DESCRIPTION": "If you're looking for a civil lawyer, we can help you with our expertise. We specialize in contractual, tort and civil litigation. Call on us to defend your rights and obtain a fair resolution to your problem.",
     
 
     // body

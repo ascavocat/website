@@ -5,7 +5,7 @@ var arrLang = {
     "TITLE": "Cabinet d'avocat en droit immobilier",
     "KEYWORDS": "avocat droit immobilier, avocat spécialisé en droit immobilier, cabinet d'avocat en droit immobilier, avocat en droit immobilier Montréal, avocat en droit immobilier Laval, avocat en droit immobilier Longueuil, avocat bail commercial, avocat vices cachés, avocat droit de la construction",
 
-    "DESCRIPTION": "ASC Avocat droit immobilier offre des solutions juridiques adaptées aux besoins de ses clients ainsi qu'une représentation vigoureuse pour protéger les droits de ces derniers. En outre, le cabinet d'avocat spécialisé en droit immobilier donne des conseils stratégiques à ses clients pour le succès dans leur dossier.",
+    "DESCRIPTION": "Besoin d'un avocat en droit immobilier? Faites appel aux services de ASC Avocat. Nous pouvons vous accompagner dans toutes vos problématiques juridiques liées à l'immobilier. Contactez-nous dès maintenant !",
     
 
     // body
@@ -86,7 +86,7 @@ var arrLang = {
     "TITLE": " Real Estate Law Firm",
     "KEYWORDS": "real estate lawyer, real estate law firm, real estate lawyer Montreal, real estate lawyer Laval, real estate lawyer Longueuil, commercial lease lawyer, latent defect lawyer, construction lawyer",
 
-    "DESCRIPTION": "ASC Real Estate Lawyer offers legal solutions tailored to the needs of its clients, as well as vigorous representation to protect their rights. In addition, the real estate law firm provides strategic advice to its clients for success in their cases.",
+    "DESCRIPTION": "Need a real estate lawyer? Call on the services of ASC Avocat. We can help you with all your real estate-related legal issues. Contact us today!",
     
 
     // body
