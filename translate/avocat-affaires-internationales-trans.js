@@ -25,7 +25,7 @@ var arrLang = {
     "T5":"Des services juridiques à des tarifs compétitifs",
     "T6":"Prendre un rendez-vous",
     "CONTINENT":"Amerique du Nord, Afrique, Europe",
-    "PHONE":"(514) 600-5554",
+    "PHONE":"+1 514 600 5554",
 
 
 
@@ -97,7 +97,8 @@ var arrLang = {
     "T5": "Legal services at competitive rates",
     "CONTINENT": "North America, Africa, Europe",
     "T6": " Book an appointment",
-    "PHONE":"(514) 600-5554",
+    "PHONE":"+1 514 600 5554",
+
 
     
    
