@@ -2,10 +2,10 @@ var arrLang = {
     "fr": {
 
     // head
-    "TITLE": "Cabinet d'avocat en droit immobilier",
-    "KEYWORDS": "avocat droit immobilier, avocat spécialisé en droit immobilier, cabinet d'avocat en droit immobilier, avocat en droit immobilier Montréal, avocat en droit immobilier Laval, avocat en droit immobilier Longueuil, avocat bail commercial, avocat vices cachés, avocat droit de la construction",
+    "TITLE": "Cabinet d'avocat en droit immobilier et de la construction",
+    "KEYWORDS": "avocat droit immobilier, avocat en droit de la construction, avocat spécialisé en droit immobilier, cabinet d'avocat en droit immobilier, avocat en droit immobilier Montréal, avocat en droit immobilier Laval, avocat en droit immobilier Longueuil, avocat bail commercial, avocat vices cachés, avocat droit de la construction",
 
-    "DESCRIPTION": "Besoin d'un avocat en droit immobilier? Faites appel aux services de ASC Avocat. Nous pouvons vous accompagner dans toutes vos problématiques juridiques liées à l'immobilier. Contactez-nous dès maintenant !",
+    "DESCRIPTION": "Besoin d'un avocat en droit immobilier ou un avocat en droit de la construction? Faites appel aux services de ASC Avocat. Nous pouvons vous accompagner dans toutes vos problématiques juridiques liées à l'immobilier ou à la construction. Contactez-nous dès maintenant !",
     
 
     // body
@@ -18,7 +18,7 @@ var arrLang = {
         // Footer
     "RIGHTS": "Services conçus et mis en oeuvre par ASC Avocat - Tous droits réservés",
 
-    "T1":"AVOCAT DROIT IMMOBILIER",
+    "T1":"AVOCAT DROIT IMMOBILIER ET DE LA CONSTRUCTION",
     "T2":"Des solutions juridiques adaptées selon vos besoins",
     "T3":"Une représentation vigoureuse pour protéger vos droits",
     "T4":"Des conseils stratégiques dans le but d'obtenir le meilleur resultat",
@@ -84,9 +84,9 @@ var arrLang = {
 
     // head
     "TITLE": " Real Estate Law Firm",
-    "KEYWORDS": "real estate lawyer, real estate law firm, real estate lawyer Montreal, real estate lawyer Laval, real estate lawyer Longueuil, commercial lease lawyer, latent defect lawyer, construction lawyer",
+    "KEYWORDS": "real estate lawyer, construction lawyer, real estate law firm, real estate lawyer Montreal, real estate lawyer Laval, real estate lawyer Longueuil, commercial lease lawyer, latent defect lawyer",
 
-    "DESCRIPTION": "Need a real estate lawyer? Call on the services of ASC Avocat. We can help you with all your real estate-related legal issues. Contact us today!",
+    "DESCRIPTION": "Need a real estate Lawyer or a construction Lawyer? Call on the services of ASC Avocat. We can help you with all your real estate and construction-related legal issues. Contact us today!",
     
 
     // body
@@ -99,7 +99,7 @@ var arrLang = {
         // Footer
     "RIGHTS": "Services designed and implemented by ASC Avocat - All rights reserved",
 
-    "T1": "REAL ESTATE LAWYER",
+    "T1": "REAL ESTATE AND CONSTRUCTION LAWYER",
     "T2": "Legal solutions tailored to your needs",
     "T3": "Vigorous representation to protect your rights",
     "T4": "Strategic advice in order to obtain the best result",
