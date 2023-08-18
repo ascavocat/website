@@ -31,8 +31,8 @@ var arrLang = {
 
    
 
-    "T30":"DROIT IMMOBILIER",
-    "T31":"ASC Avocat possède une expertise en droit immobilier, notamment : vices cachés, les recours hypothécaires, les litiges relatifs au bail commercial, et d'autres litiges dans le domaine de la construction.",
+    "T30":"DROIT IMMOBILIER ET DE LA CONSTRUCTION",
+    "T31":"ASC Avocat possède une expertise en droit immobilier et de la construction, notamment : vices cachés, les recours hypothécaires, les litiges relatifs au bail commercial, et d'autres litiges dans le domaine de la construction.",
     "T32":"Vices cachés",
     "T33":"La découverte de vices cachés peut s'avérer stressante et onéreuse. ASC Avocat est à vos côtés pour vous guider tout au long de ce processus complexe. Nos interventions en droit immobilier pour les vices cachés comprennent entre autres:",
 
@@ -83,7 +83,7 @@ var arrLang = {
     "en": {
 
     // head
-    "TITLE": " Real Estate Law Firm",
+    "TITLE": " Construction and Real Estate Law Firm",
     "KEYWORDS": "real estate lawyer, construction lawyer, real estate law firm, real estate lawyer Montreal, real estate lawyer Laval, real estate lawyer Longueuil, commercial lease lawyer, latent defect lawyer",
 
     "DESCRIPTION": "Need a real estate Lawyer or a construction Lawyer? Call on the services of ASC Avocat. We can help you with all your real estate and construction-related legal issues. Contact us today!",
@@ -110,8 +110,8 @@ var arrLang = {
 
     
    
-    "T30": "REAL ESTATE LAW",
-    "T31": "ASC Lawyer has expertise in real estate law, including: latent defects, mortgage remedies, commercial lease disputes, and other construction disputes.",
+    "T30": "CONSTRUCTION AND REAL ESTATE LAW",
+    "T31": "ASC Lawyer has expertise in construction and real estate law, including: latent defects, mortgage remedies, commercial lease disputes, and other construction disputes.",
     "T32": "Latent defects",
     "T33": "The discovery of latent defects can be stressful and costly. ASC Avocats is at your side to guide you through this complex process. Our real estate law services for latent defects include:",
     "T33-1": "Construction defects and deficiencies",
