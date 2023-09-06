@@ -54,14 +54,14 @@
         <loc>https://asc-avocat.ca/en/contact.html</loc>
         <xhtml:link rel="alternate" hreflang="en" href="https://asc-avocat.ca/en/contact.html"/>
         <xhtml:link rel="alternate" hreflang="fr" href="https://asc-avocat.ca/fr/contact.html"/>
-        <changefreq>quarterly</changefreq>
+        <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://asc-avocat.ca/fr/contact.html</loc>
         <xhtml:link rel="alternate" hreflang="en" href="https://asc-avocat.ca/en/contact.html"/>
         <xhtml:link rel="alternate" hreflang="fr" href="https://asc-avocat.ca/fr/contact.html"/>
-        <changefreq>quarterly</changefreq>
+        <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
 
