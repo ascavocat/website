@@ -1,0 +1,234 @@
+
+/* Making text white on the left side of the header */
+.title, .value-item {
+    color: white;
+}
+
+/* Default for mobile */
+.responsive-title {
+    font-size: 1.5rem; /* Adjust as needed for mobile */
+}
+
+/* For tablets */
+@media (min-width: 768px) {
+    .responsive-title {
+        font-size: 2rem; /* Adjust as needed for tablets */
+    }
+}
+
+/* For desktops */
+@media (min-width: 992px) {
+    .responsive-title {
+        font-size: 2.5rem; /* Adjust for desktops */
+    }
+}
+
+/* For large desktops */
+@media (min-width: 1200px) {
+    .responsive-title {
+        font-size: 3rem; /* Adjust for large desktops */
+    }
+}
+
+.custom-hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90px;  /* Adjust this value to your preferred height */
+}
+
+.hero-body {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.value-item {
+    margin-bottom: 20px; /* Adjust as per your design preference */
+}
+
+/* Styling for reCAPTCHA and secure-sign */
+.g-recaptcha {
+    width: 100%;
+    max-width: 304px;  /* This is the default width of the reCAPTCHA. This ensures that the reCAPTCHA doesn't stretch beyond its original size. */
+    margin: 0 auto; /* Center the reCAPTCHA */
+    display: flex;
+    justify-content: center;
+}
+
+.recaptcha-error {
+    color: red;
+    text-align: center;
+    height: 20px; 
+    margin-bottom: 10px;
+}
+
+
+.secure-sign {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 13px;  /* Adjust as per preference */
+    margin-bottom: 10px;
+}
+
+/* Making the header text bold and slightly larger for emphasis */
+.title {
+    font-weight: bold;
+    font-size: 2rem; /* Adjust the size to your preference */
+}
+
+/* Accordion */
+
+.accordion {
+    border: 1px solid #f5f5f5;
+    border-radius: 6px;
+}
+
+.accordion-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    cursor: pointer;
+    background-color: #66a830; /* Primary color set here */
+    color: #ffffff; /* Assuming you want white text on the primary colored background */
+    border-bottom: 1px solid #f5f5f5;
+    transition: background-color 0.3s;
+    font-size: 1.25rem;  /* Adjusted to match Bulma's .subtitle */
+}
+
+.accordion-header:last-child {
+    border-bottom: none;
+}
+
+.accordion-header:hover,
+.accordion-header.active {
+    background-color: #131212;
+}
+
+.accordion-content {
+    display: none;
+    padding: 1rem;
+    text-align: left;  /* Left-aligning the content */
+    font-size: 1.25rem;  /* Adjusted to match Bulma's .subtitle */
+}
+
+.icon {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* contact form on the right */
+
+#divNoDisplay{
+    display: none;
+}
+.contact-form {
+    padding: 15px;
+    border-radius: 8px;
+    width: 85%; /* Further reduced the width */
+    margin: 0 auto;
+    margin-top: 20px;  /* Gives some space from the top */
+    background-color: #66a830; /* Bulma's primary color */
+    color: white; /* Text color set to white for contrast */
+}
+
+.contact-form h3 {
+    margin-bottom: 15px;
+    font-weight: bold;
+    color: white;
+}
+
+.contact-form .button {
+    width: 100%;
+    background-color: white;
+    color: #00d1b2; /* Text color for the button to contrast with the background */
+    border: none;
+}
+
+.contact-form .input, .contact-form .textarea {
+    background-color: white; /* Set input and textarea background to white */
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    color: #333; /* Darker text color for readability on a white background */
+}
+
+.contact-form .input::placeholder, .contact-form .textarea::placeholder {
+    color: rgba(0, 0, 0, 0.5); /* Slightly transparent black color for placeholders */
+}
+
+.contact-form .input:focus, .contact-form .textarea:focus {
+    border: 1px solid #00d1b2; /* Primary color border when focused */
+    box-shadow: none;
+}
+
+.contact-form .input:hover, .contact-form .textarea:hover {
+    border: 1px solid #00d1b2; /* Primary color border on hover */
+}
+
+.contact-form .button {
+    width: 100%;
+    background-color: black; /* Setting button background to black */
+    color: white; /* Setting button text to white */
+    border: none;
+    padding: 10px 10px;
+    font-weight: bold; /* Making the text bold */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.contact-form .button:hover {
+    background-color: rgba(0, 0, 0, 0.8); /* Slightly transparent black on hover for a subtle effect */
+}
+
+/* Making the form height smaller */
+.contact-form .control:not(:last-child) {
+    margin-bottom: 10px;  /* Adjust as per preference */
+}
+
+.contact-form .textarea {
+    height: 60px;  /* Adjust as per preference */
+}
+
+/* Rounded corners for the form button */
+.contact-form .button {
+    border-radius: 20px;  /* Rounded corners for the button */
+    padding: 10px 10px;   /* Adjust padding for better aesthetic feel */
+}
+
+.contact-form .input[type="text"],
+.contact-form .input[type="email"],
+.contact-form .input[type="tel"] {
+    height: 35px;  /* Adjust as per preference to change the height */
+    border-radius: 15px;  /* Rounded corners for the inputs */
+}
+
+/* Rounded corners for all input fields and textarea */
+.contact-form .input,
+.contact-form .textarea {
+    border-radius: 20px;  /* Rounded corners for the inputs and textarea */
+}
+
+.appointment-btn {
+    display: inline-block;
+    background-color: #66a830; /* Use a color that matches your theme. */
+    color: white;
+    font-family: inherit;
+    padding: 18px 20px;
+    border-radius: 5px;
+    margin-top: 20px; /* Adding space above the button. Adjust as needed. */
+    font-weight: bold;
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect. */
+    cursor: pointer;
+    border: none;
+    text-decoration: none; /* If you decide to make the button a link, this will remove the underline. */
+}
+
+.appointment-btn:hover {
+    background-color: #009688; /* Slightly darker shade for hover. Adjust if needed. */
+}
+
+.appointment-btn i {
+    margin-right: 8px; /* Adds space between the icon and the text. */
+}
+

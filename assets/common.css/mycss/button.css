@@ -1,0 +1,70 @@
+@media only screen and (max-width: 767px) {
+    .buttons-container {
+        flex-direction: column;
+    }
+
+    .responsive-button {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
+
+.custom-button {
+    position: relative;
+    text-align: center;
+    padding-left: 65px;
+    font-size: 1.9rem;
+    font-weight: bold;
+    color: white;
+    transition: color 0.3s;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.custom-icon {
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 2rem;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+@keyframes spin {
+    0% {
+        transform: translateY(-50%);
+    }
+    50% {
+        transform: translateY(-50%) rotate(390deg);
+    }
+    100% {
+        transform: translateY(-50%);
+    }
+}
+
+.custom-button.is-link:hover {
+    color: #1565C0;
+}
+
+.custom-button.is-link:hover .custom-icon {
+    color: #1565C0;
+    animation: spin 0.6s linear 1;
+}
+
+.custom-button.is-success:hover {
+    color: #28a745;
+}
+
+.custom-button.is-success .custom-icon {
+    color: white;  /* Set the default color of the icon for .is-success button */
+}
+
+.custom-button.is-success:hover .custom-icon {
+    color: #28a745;  /* Update the hover color of the icon for .is-success button */
+    animation: spin 0.6s linear 1;
+}
+
+.button-text {
+    display: inline-block;
+    width: 100%;
+}

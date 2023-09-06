@@ -1,0 +1,81 @@
+body, span {
+  font-family: Roboto, Tahoma, Verdana, sans-serif;
+  font-size: 15px;
+}
+
+/* nav language styles ... */
+
+nav {
+  margin: 10px;
+  padding: 10px;
+}
+
+#langSelect {
+  padding: 5px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* ... End language styles ... */
+
+/* Phone floating CSS */
+
+.floating-phone {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+  background-color: #66a830; /* Change as per your design preference */
+  border-radius: 50%;
+  padding: 15px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.floating-phone .icon {
+  color: white; /* Icon color */
+}
+
+/* Floating address box */
+.floating-address {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+  background-color: #66a830;
+  border-radius: 50%;
+  padding: 15px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.floating-address .icon {
+  color: white;
+}
+
+#addressModal .modal-card-head {
+  background-color: #66a830;
+}
+
+#addressModal .icon {
+  margin-right: 5px; /* Adds some space between the icon and the text */
+}
+
+#addressModal a:hover {
+  text-decoration: none; /* Removes the underline from the links when hovered */
+}
+
+.flex-container {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap; /* Allow items to wrap if there's not enough horizontal space */
+}
+
+.icon-label {
+  display: flex;
+  align-items: center; /* Vertically center the icon with the label */
+  margin-right: 5px; /* Space between the label and the content */
+}
+
+.icon {
+  margin-right: 3px; /* Small space between the icon and its label */
+}
