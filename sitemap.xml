@@ -1,53 +1,83 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    
+    <!-- Index Pages -->
     <url>
         <loc>https://asc-avocat.ca/en/index.html</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://asc-avocat.ca/en/index.html"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://asc-avocat.ca/fr/index.html"/>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
     <url>
         <loc>https://asc-avocat.ca/fr/index.html</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://asc-avocat.ca/en/index.html"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://asc-avocat.ca/fr/index.html"/>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
+    
+    <!-- Personal Services Pages -->
     <url>
         <loc>https://asc-avocat.ca/en/lawyer-personal-services.html</loc>
-        <changefreq>yearly</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://asc-avocat.ca/en/lawyer-personal-services.html"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://asc-avocat.ca/fr/services-aux-particuliers.html"/>
+        <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://asc-avocat.ca/fr/services-aux-particuliers.html</loc>
-        <changefreq>yearly</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://asc-avocat.ca/en/lawyer-personal-services.html"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://asc-avocat.ca/fr/services-aux-particuliers.html"/>
+        <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
+
+    <!-- Business Services Pages -->
     <url>
         <loc>https://asc-avocat.ca/en/lawyer-business-services.html</loc>
-        <changefreq>yearly</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://asc-avocat.ca/en/lawyer-business-services.html"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://asc-avocat.ca/fr/services-aux-entreprises.html"/>
+        <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://asc-avocat.ca/fr/services-aux-entreprises.html</loc>
-        <changefreq>yearly</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://asc-avocat.ca/en/lawyer-business-services.html"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://asc-avocat.ca/fr/services-aux-entreprises.html"/>
+        <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
+
+    <!-- Contact Pages -->
     <url>
         <loc>https://asc-avocat.ca/en/contact.html</loc>
-        <changefreq>yearly</changefreq>
-        <priority>0.6</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://asc-avocat.ca/en/contact.html"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://asc-avocat.ca/fr/contact.html"/>
+        <changefreq>quarterly</changefreq>
+        <priority>0.8</priority>
     </url>
     <url>
         <loc>https://asc-avocat.ca/fr/contact.html</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://asc-avocat.ca/en/contact.html"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://asc-avocat.ca/fr/contact.html"/>
+        <changefreq>quarterly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <!-- Terms and Legal Notices Pages -->
+    <url>
+        <loc>https://asc-avocat.ca/en/terms-of-use-and-legal-notices.html</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://asc-avocat.ca/en/terms-of-use-and-legal-notices.html"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://asc-avocat.ca/fr/conditions-utilisations-et-notes-legales.html"/>
         <changefreq>yearly</changefreq>
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://asc-avocat.ca/en/terms-of-use-and-legal-notices.html</loc>
-        <changefreq>yearly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
         <loc>https://asc-avocat.ca/fr/conditions-utilisations-et-notes-legales.html</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://asc-avocat.ca/en/terms-of-use-and-legal-notices.html"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://asc-avocat.ca/fr/conditions-utilisations-et-notes-legales.html"/>
         <changefreq>yearly</changefreq>
-        <priority>0.5</priority>
+        <priority>0.6</priority>
     </url>
 </urlset>
