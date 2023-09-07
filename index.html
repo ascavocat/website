@@ -4,14 +4,12 @@
     <meta charset="UTF-8">
     <title>Redirecting...</title>
     <script type="text/javascript">
-        document.addEventListener("DOMContentLoaded", function() {
-            var userLang = navigator.language || navigator.userLanguage; 
-            if (userLang.startsWith("fr")) {
-                window.location.href = "/fr/index.html";
-            } else {
-                window.location.href = "/en/index.html";
-            }
-        });
+        var userLang = navigator.language || navigator.userLanguage; 
+        if (userLang.startsWith("fr")) {
+            window.location.href = "/fr/index.html";
+        } else {
+            window.location.href = "/en/index.html";
+        }
     </script>
 </head>
 <body>
