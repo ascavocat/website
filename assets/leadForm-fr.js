@@ -94,7 +94,8 @@ document.getElementById('leadForm').addEventListener('submit', async function (e
         Email: email,
         Message: formattedMessage,
         Phone: phone,
-        Language: language
+        Language: language,
+        recaptcha: recaptchaValue
     };
 
     try {

@@ -94,7 +94,8 @@ if (!recaptchaValue) {
         Email: email,
         Message: formattedMessage,
         Phone: phone,
-        Language: language
+        Language: language,
+        recaptcha: recaptchaValue
     };
 
     try {
