@@ -39,6 +39,19 @@
         ]
       }
     ],
-    "disown-opener": "off"
+    "disown-opener": "off",
+    "button-type": "off",
+    "axe/forms": [
+      "default",
+      {
+        "label": "off"
+      }
+    ],
+    "axe/structure": [
+      "default",
+      {
+        "list": "off"
+      }
+    ]
   }
 }
