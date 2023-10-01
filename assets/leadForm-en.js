@@ -95,7 +95,7 @@ if (!recaptchaValue) {
         Message: formattedMessage,
         Phone: phone,
         Language: language,
-        recaptcha: recaptchaValue
+        RecaptchaResponse: recaptchaValue  // include the ReCAPTCHA token
     };
 
     try {
