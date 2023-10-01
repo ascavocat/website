@@ -1,25 +1,20 @@
+// Define your special page mappings
+const pageMappings = {
+    '/en/index.html': '/fr/index.html',
+    '/fr/index.html': '/en/index.html',
+    '/en/lawyer-personal-services.html': '/fr/services-aux-particuliers.html',
+    '/fr/services-aux-particuliers.html': '/en/lawyer-personal-services.html',
+    '/en/lawyer-business-services.html': '/fr/services-aux-entreprises.html',
+    '/fr/services-aux-entreprises.html': '/en/lawyer-business-services.html',
+    '/en/contact.html': '/fr/contact.html',
+    '/fr/contact.html': '/en/contact.html',
+    '/en/terms-of-use-and-legal-notices.html': '/fr/services-aux-entreprises.html',
+    '/fr/conditions-utilisations-et-notes-legales.html': '/en/terms-of-use-and-legal-notices.html',
+};
 // Function to handle dropdown changes
 function handleDropdownChange(dropdown) {
     const selectedLang = dropdown.value;
     const currentPath = window.location.pathname;
-
-    // Define your special page mappings
-    const pageMappings = {
-        '/en/index.html': '/fr/index.html',
-        '/fr/index.html': '/en/index.html',
-        '/en/lawyer-personal-services.html': '/fr/services-aux-particuliers.html',
-        '/fr/services-aux-particuliers.html': '/en/lawyer-personal-services.html',
-        '/en/lawyer-business-services.html': '/fr/services-aux-entreprises.html',
-        '/fr/services-aux-entreprises.html': '/en/lawyer-business-services.html',
-        '/en/contact.html': '/fr/contact.html',
-        '/fr/contact.html': '/en/contact.html',
-        '/en/terms-of-use-and-legal-notices.html': '/fr/services-aux-entreprises.html',
-        '/fr/conditions-utilisations-et-notes-legales.html': '/en/terms-of-use-and-legal-notices.html',
-
-
-
-        // ... you can add more mappings as needed
-    };
 
     // Check if the current page has a special mapping
     if (pageMappings[currentPath]) {
@@ -37,7 +32,7 @@ function handleDropdownChange(dropdown) {
 
 // Attach event listeners to both dropdowns
 const langDropdownSmall = document.getElementById('langSelect2');
-const langDropdownLarge = document.getElementById('langSelect'); // assuming 'langSelect' is the ID for the larger view
+const langDropdownLarge = document.getElementById('langSelect');
 
 if (langDropdownSmall) {
     langDropdownSmall.addEventListener('change', function() {
