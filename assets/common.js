@@ -10,6 +10,11 @@ const pageMappings = {
     '/fr/contact.html': '/en/contact.html',
     '/en/terms-of-use-and-legal-notices.html': '/fr/services-aux-entreprises.html',
     '/fr/conditions-utilisations-et-notes-legales.html': '/en/terms-of-use-and-legal-notices.html',
+
+    '/fr/droit-des-affaires.html': '/en/business-lawyer.html',
+    '/en/business-lawyer.html': '/fr/droit-des-affaires.html',
+
+
 };
 // Function to handle dropdown changes
 function handleDropdownChange(dropdown) {
