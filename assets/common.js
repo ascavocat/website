@@ -15,7 +15,9 @@ const pageMappings = {
     '/en/family-lawyer.html': '/fr/droit-de-la-famille.html',
     '/fr/droit-de-la-famille.html': '/en/family-lawyer.html',
     '/en/real-estate-lawyer.html': '/fr/droit-immobilier.html',
-    '/fr/droit-immobilier.html': '/en/real-estate-lawyer.html'
+    '/fr/droit-immobilier.html': '/en/real-estate-lawyer.html',
+    '/en/construction-lawyer.html': '/fr/droit-de-la-construction.html',
+    '/fr/droit-de-la-construction.html': '/en/construction-lawyer.html'
 
 
 };
