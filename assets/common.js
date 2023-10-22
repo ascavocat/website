@@ -13,7 +13,9 @@ const pageMappings = {
     '/en/business-lawyer.html': '/fr/droit-des-affaires.html',
     '/fr/droit-des-affaires.html': '/en/business-lawyer.html',
     '/en/family-lawyer.html': '/fr/droit-de-la-famille.html',
-    '/fr/droit-de-la-famille.html': '/en/family-lawyer.html'
+    '/fr/droit-de-la-famille.html': '/en/family-lawyer.html',
+    '/en/real-estate-lawyer.html': '/fr/droit-immobilier.html',
+    '/fr/droit-immobilier.html': '/en/real-estate-lawyer.html'
 
 
 };
